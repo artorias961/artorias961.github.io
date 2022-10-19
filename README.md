@@ -60,6 +60,7 @@ Open Visual Studio Code, and click on Exensions (CTRL + shift + x) then search f
 <img src="https://user-images.githubusercontent.com/54751574/196766736-8183c1f2-cb38-4e51-a08e-a7502baa084a.png">
 </p>
 
+Once you install the python interpreter, we are going to go to the settins of python and find the directory of mambaforge/miniforge to be our python interpreter. Go to **File > Preferences > Setting > Extensions > Python**. Once you get there, scroll down to 
 
 
 
