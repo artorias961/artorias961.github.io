@@ -18,26 +18,35 @@ The IDE I will be using is [Visual Studio Code](https://code.visualstudio.com) a
 
 Go to [miniforge3](https://github.com/conda-forge/miniforge). Download and run the file then the first prompt should be
 
-![image](https://user-images.githubusercontent.com/54751574/196761843-3e301dad-57ea-488a-b837-41d9a4abc40a.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196761843-3e301dad-57ea-488a-b837-41d9a4abc40a.png">
+</p>
 
 Click on **More Info**, then click **Run anyway**
 
-![image](https://user-images.githubusercontent.com/54751574/196762193-2064d4ad-c69b-4237-ba43-878199803098.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196762193-2064d4ad-c69b-4237-ba43-878199803098.png">
+</p>
 
 Click **next**, **I Agree**, and **Just Me (recommended)**
 
-![image](https://user-images.githubusercontent.com/54751574/196762389-f72640f8-0ce1-422d-8e75-eefa709a01d4.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196762389-f72640f8-0ce1-422d-8e75-eefa709a01d4.png">
+</p>
 
 **Remember**, this default directory path since we are going to use it for Visual Studio Code.
 
-![image](https://user-images.githubusercontent.com/54751574/196762958-11498167-ab26-421b-8a1d-bda5eaed7095.png)
- 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196762958-11498167-ab26-421b-8a1d-bda5eaed7095.png">
+</p>
+
 Have the following checked mark then install
  
 Once you have finished installing mambaforge or miniforge, open the application and to install python libraries then do a pip install in the terminal of mambaforge/miniforge
  
-![image](https://user-images.githubusercontent.com/54751574/196763266-d4924202-5e2d-4f49-9e84-9969801a6b25.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196763266-d4924202-5e2d-4f49-9e84-9969801a6b25.png">
+</p>
  
 ### 
 
