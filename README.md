@@ -14,6 +14,9 @@ The following code will be using [Mozilla Documentation](https://developer.mozil
 # Programs
 The IDE I will be using is [Visual Studio Code](https://code.visualstudio.com) and the conda environment [miniforge3](https://github.com/conda-forge/miniforge). You are not limited to these, you are welcome to find what works best for you. 
 
+
+
+
 ### Installing Mambaforge
 
 Go to [miniforge3](https://github.com/conda-forge/miniforge). Download and run the file then the first prompt should be
@@ -48,6 +51,16 @@ Once you have finished installing mambaforge or miniforge, open the application 
 <img src="https://user-images.githubusercontent.com/54751574/196763266-d4924202-5e2d-4f49-9e84-9969801a6b25.png">
 </p>
  
+One example of installing a libray is installing **Flask**, since we are going to use it. Do **pip install Flask**
+ 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196769089-8cbc35a4-9819-4c8c-9fe6-fe436cfd4442.png">
+</p>
+ 
+ 
+ 
+ 
+ 
 ### Installing Visual Studio Code
 
 Navigate to [Visual Studio Code](https://code.visualstudio.com), download, run, then install the program. 
@@ -60,10 +73,11 @@ Open Visual Studio Code, and click on Exensions (CTRL + shift + x) then search f
 <img src="https://user-images.githubusercontent.com/54751574/196766736-8183c1f2-cb38-4e51-a08e-a7502baa084a.png">
 </p>
 
-Once you install the python interpreter, we are going to go to the settins of python and find the directory of mambaforge/miniforge to be our python interpreter. Go to **File > Preferences > Setting > Extensions > Python**. Once you get there, scroll down to 
+Once you install the python interpreter, we are going to go to the settins of python and find the directory of mambaforge/miniforge to be our python interpreter. Go to **File > Preferences > Setting > Extensions > Python**. Once you get there, scroll down to ***Default Interpreter Path***, change your path to either miniforge or mambaforge, depending which one you installed.
 
-
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196767965-4ba7df4e-6556-44b8-b662-e645870af705.png">
+</p>
 
 
 
