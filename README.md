@@ -48,11 +48,17 @@ Once you have finished installing mambaforge or miniforge, open the application 
 <img src="https://user-images.githubusercontent.com/54751574/196763266-d4924202-5e2d-4f49-9e84-9969801a6b25.png">
 </p>
  
-### 
+### Installing Visual Studio Code
 
+Navigate to [Visual Studio Code](https://code.visualstudio.com), download, run, then install the program. 
 
+### Using mambaforge on Visual Studio Code
 
+Open Visual Studio Code, and click on Exensions (CTRL + shift + x) then search for 
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196766736-8183c1f2-cb38-4e51-a08e-a7502baa084a.png">
+</p>
 
 
 
