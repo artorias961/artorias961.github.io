@@ -12,14 +12,21 @@ The following code will be using [Mozilla Documentation](https://developer.mozil
 
 
 # Programs
-The IDE I will be using is [Visual Studio Code](https://code.visualstudio.com) and the conda environment [miniforge3](https://github.com/conda-forge/miniforge). You are not limited to these, you are welcome to find what works best for you. 
+The IDE I will be using is [Visual Studio Code](https://code.visualstudio.com) and the conda environment [mambaforge](https://github.com/conda-forge/miniforge). You are not limited to these, you are welcome to find what works best for you. 
 
 
 
 
 ### Installing Mambaforge
 
-Go to [miniforge3](https://github.com/conda-forge/miniforge). Download and run the file then the first prompt should be
+Go to [mambaforge](https://github.com/conda-forge/miniforge). Find the following, 
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/196827616-2dde1ec7-3b77-48d9-9928-b1985e925d4e.png">
+</p>
+
+Download and run the file then the first prompt should be
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54751574/196761843-3e301dad-57ea-488a-b837-41d9a4abc40a.png">
@@ -45,7 +52,7 @@ Click **next**, **I Agree**, and **Just Me (recommended)**
 
 Have the following checked mark then install
  
-Once you have finished installing mambaforge or miniforge, open the application and to install python libraries then do a pip install in the terminal of mambaforge/miniforge
+Once you have finished installing mambaforge or miniforge, open the application and to install python libraries then do a pip install in the terminal of ***mambaforge/miniforge***
  
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54751574/196763266-d4924202-5e2d-4f49-9e84-9969801a6b25.png">
@@ -73,7 +80,7 @@ Open Visual Studio Code, and click on Exensions (CTRL + shift + x) then search f
 <img src="https://user-images.githubusercontent.com/54751574/196766736-8183c1f2-cb38-4e51-a08e-a7502baa084a.png">
 </p>
 
-Once you install the python interpreter, we are going to go to the settins of python and find the directory of mambaforge/miniforge to be our python interpreter. Go to **File > Preferences > Setting > Extensions > Python**. Once you get there, scroll down to ***Default Interpreter Path***, change your path to either miniforge or mambaforge, depending which one you installed.
+Once you install the python interpreter, we are going to go to the settins of python and find the directory of ***mambaforge/miniforge*** to be our python interpreter. Go to **File > Preferences > Setting > Extensions > Python**. Once you get there, scroll down to ***Default Interpreter Path***, change your path to either ***miniforge or mambaforge***, depending which one you installed. *Note: I used miniforge but I recommend using mambaforge, the difference is that miniforge is a conda environment and mamba is its own environment called mamba. Mambaforge is faster than miniforge which is good. The reason why I am not switching to mambaforge due to many of my projects consist of team work and having to troubleshoot everyone from miniforge to mambaforge gonna be a headache. Overall, just install mamba forge.*
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54751574/196767965-4ba7df4e-6556-44b8-b662-e645870af705.png">
