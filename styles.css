@@ -12,3 +12,9 @@
     display: flex;
 
 }
+
+/*Changing the size of the profile picture*/
+.profile-pic{
+    width: 300px;
+    height: 300px;
+}
