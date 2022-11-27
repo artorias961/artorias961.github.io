@@ -17,17 +17,85 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Creating the title for the header -->
-        <title>  My name is Arty-Chan </title>
-
-        <!-- Importing the image underneath the header title -->
-        <img src="../Images/butterflies.jpg" alt="A girl with two different eye colors">
+        <title> Document </title>
     <head>
 
     <!--This is the body of the program -->
     <body>
 
-        <h1> This is a heading </h1>
-        <p> This is a paragraph </p>
+        <!-- Creating a class that is a wrapper that will wrap around a single object to provide more functionality-->
+        <div class="page-wrapper">
+            <!-- Class Side1 will put content on the left side -->
+            <div class="side1">
+                <!-- Crating a wrapper inside the class since we are going to wrap it at the end-->
+                <div class="wrapper"></div>
+
+                    <!-- Header of the class (Section 1)-->
+                    <h1>Biomedical Electrical Engineer</h1>
+                    
+                    <!-- Inserting image -->
+                    <img class="profile-pic" src="../Images/butterflies.jpg">
+
+                    <!-- Header 2 will be our name -->
+                    <h2>Christopher Morales</h2>
+
+                    <!-- Creating a paragraph section to have clickable links -->
+                    <p>Connect:
+                        <a href="www.linkedin.com/in/christopher-morales-b112b61b1">LinkedIn</a>
+                        <a href="https://www.instagram.com/artorias961/">Instagram</a>
+                        <a href=" https://calstatela.instructure.com/enroll/K3NH8X">Canvas</a>
+                        <a href="https://github.com/artorias961">GitHub</a>
+                    </p>
+                </div>
+                <!-- Section 2 of side1-->
+                <div class="wrapper"></div>
+                    <!-- Creating a header for section 2 side1-->
+                    <h1>Work History</h1>
+
+                    <!-- Creating a bullet point for each job-->
+                    <ul class="work-container">
+                        <!-- Creating the bullet point-->
+                        <li>
+                            <p>Nasa Internship | 2017 - 2017</p>
+                        </li>
+
+                        <li>
+                            <p>BeWinnors | 2020 </p>
+                        </li>
+
+                        <li>
+                            <p>Makerspace Assistant | 2021 - present</p>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- Creating the third section of page1-->
+                <div class="wrapper">
+                    <!-- Creating a header for section 3 side1-->
+                    <h1>Skills</h1>
+
+                    <!-- Creating a list bullet point-->
+                    <ul class="skills-containers">
+                        <!-- Creating the bullet point-->
+                        <li>
+                            <p>Python</p>
+                        </li>
+
+                        <li>
+                            <p>HTML</p>
+                        </li>
+
+                        <li>
+                            <p>C</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Class Side2 will put content on the right side-->
+            <div class="side2"></div>
+
+        </div>
 
     <body>
 </html>
