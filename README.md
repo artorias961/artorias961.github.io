@@ -202,3 +202,10 @@ Previously, we where using python to locally host our own server but we can host
 
 # Libraries
 - pip install Flask
+
+# Reference's
+- HTML
+  - [HTML Link Tags](https://www.w3schools.com/tags/tag_link.asp)
+  - [HTML CSS style](https://www.w3schools.com/html/html_css.asp)
+  - [HTML assigning a tag](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
+  - [HTML structuring the platform scale for all devices](https://www.w3schools.com/tags/tag_meta.asp)
