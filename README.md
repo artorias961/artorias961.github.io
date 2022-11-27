@@ -209,3 +209,13 @@ Previously, we where using python to locally host our own server but we can host
   - [HTML CSS style](https://www.w3schools.com/html/html_css.asp)
   - [HTML assigning a tag](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
   - [HTML structuring the platform scale for all devices](https://www.w3schools.com/tags/tag_meta.asp)
+  - [HTML Div Tags](https://www.w3schools.com/tags/tag_div.ASP)
+  - [HTML ul Tag](https://www.w3schools.com/tags/tag_ul.asp)
+- CSS
+  - [Introduction to CSS](https://www.w3schools.com/css/default.asp)
+  - [CSS * Selector](https://www.w3schools.com/cssref/sel_all.php)
+  - [Finding a font to be implemented in CSS/HTML](https://fonts.google.com)
+  - [CSS Display Functionalities](https://www.w3schools.com/cssref/pr_class_display.php)
+  - [CSS Grid Layout Module](https://www.w3schools.com/css/css_grid.asp)
+  - [Color Wheel](https://color.adobe.com/create/color-wheel)
+  - [CSS Media Screen](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
