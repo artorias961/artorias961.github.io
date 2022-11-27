@@ -4,17 +4,75 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
+    letter-spacing: .5px;
 }
 
 /*Going to be modifying the page wrapper and speifically the picture*/
 .page-wrapper{
     display: flex;
-
+    max-width: 1500px;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 50px;
+    flex-wrap: wrap;
 }
 
 /*Changing the size of the profile picture*/
 .profile-pic{
     width: 300px;
     height: 300px;
+}
+
+/*Scale the side2 width by 40%*/
+.side2{
+    width: 40%;
+}
+
+/*All the wrapper classes will have a margin bottom of 10 pixels*/
+.wrapper{
+    margin-bottom: 15px;
+}
+
+/*All headers 1*/
+h1{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+/*All of header 2*/
+h2{
+    font-size: 16px;
+}
+
+/*Eliminate all bullet point dots*/
+li{
+    list-style: none;
+}
+
+/*All of the paragraphs*/
+p{
+    line-height: 1.3em;
+    font-size: 13px;
+}
+
+/*Creating the shade with evenly spaced out empty spaces and separate each box to itself*/
+.card1{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/*All of the hyper reference links*/
+a{
+    font-size: 13px;
+    color: #212329;
+}
+
+/**/
+@media (max-width:900px){
+    .page-wrapper, .side1, .side2{
+        width: 90%;
+    }
 }
