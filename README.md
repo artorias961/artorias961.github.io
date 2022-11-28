@@ -205,6 +205,7 @@ Previously, we where using python to locally host our own server but we can host
 
 # Reference's
 - HTML
+  - [All info for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - [HTML Link Tags](https://www.w3schools.com/tags/tag_link.asp)
   - [HTML CSS style](https://www.w3schools.com/html/html_css.asp)
   - [HTML assigning a tag](https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do)
@@ -212,6 +213,7 @@ Previously, we where using python to locally host our own server but we can host
   - [HTML Div Tags](https://www.w3schools.com/tags/tag_div.ASP)
   - [HTML ul Tag](https://www.w3schools.com/tags/tag_ul.asp)
 - CSS
+  - [All info for CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
   - [Introduction to CSS](https://www.w3schools.com/css/default.asp)
   - [CSS * Selector](https://www.w3schools.com/cssref/sel_all.php)
   - [Finding a font to be implemented in CSS/HTML](https://fonts.google.com)
