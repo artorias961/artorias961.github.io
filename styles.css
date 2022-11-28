@@ -64,6 +64,13 @@ p{
     border-radius: 5px;
 }
 
+.card2{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 /*All of the hyper reference links*/
 a{
     font-size: 13px;
