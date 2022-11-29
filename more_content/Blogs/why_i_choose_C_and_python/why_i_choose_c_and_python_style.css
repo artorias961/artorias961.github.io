@@ -1,0 +1,10 @@
+/*Going to be modifying the page wrapper and speifically the picture*/
+.page-wrapper{
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 50px;
+    flex-wrap: wrap;
+}
