@@ -221,5 +221,7 @@ Previously, we where using python to locally host our own server but we can host
   - [CSS Grid Layout Module](https://www.w3schools.com/css/css_grid.asp)
   - [Color Wheel](https://color.adobe.com/create/color-wheel)
   - [CSS Media Screen](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
+  - [Front End Web Development](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 - JavaScript
   - [All info for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+  - [Learn JavaScript](https://learnjavascript.online)
