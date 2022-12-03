@@ -6,7 +6,7 @@ The following code will be using [Mozilla Documentation](https://developer.mozil
 - CSS
   - Makes the website looks very nice
 - JavaScript
-  - Does interaction for the website. Think of this one uploading it or downloading some file
+  - Does interaction for the website. Think of this one uploading it or downloading some file. Another thing about this language us allowing complex things on web page such as animated 2D/3D graphics, updated content, and much more. 
 - Python
   - We will be using python in built function to make a local server for now. Later on, we can make an official server but our purposes is to practice.
 
