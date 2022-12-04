@@ -222,6 +222,8 @@ Previously, we where using python to locally host our own server but we can host
   - [Color Wheel](https://color.adobe.com/create/color-wheel)
   - [CSS Media Screen](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
   - [Front End Web Development](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+  - [CSS Icon Code](https://css.gg/app)
+  - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - JavaScript
   - [All info for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
   - [JavaScript Let function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
@@ -232,4 +234,10 @@ Previously, we where using python to locally host our own server but we can host
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
 - Courses
   - [HTML and CSS](https://learnhtmlcss.online)
+  - [HTML and CSS II](https://www.internetingishard.com)
+  - [HTML and CSS III](https://learn.shayhowe.com/html-css/)
+  - [CSS Layout](https://learnlayout.com)
+  - [CSS Advanced](https://www.htmldog.com/guides/css/advanced/)
+  - [Computer Programming](https://www.edx.org/learn)
   - [JavaScript](https://learnjavascript.online)
+  - [JavaScript II](https://javascript.info)
