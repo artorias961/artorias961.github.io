@@ -224,10 +224,12 @@ Previously, we where using python to locally host our own server but we can host
   - [Front End Web Development](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
 - JavaScript
   - [All info for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
-  - [Learn JavaScript](https://learnjavascript.online)
   - [JavaScript Let function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
   - [JavaScript Const function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
   - [JavaScript Array Push function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
   - [JavaScript forEach function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 - Alternative To Host a Website
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
+- Courses
+  - [HTML and CSS](https://learnhtmlcss.online)
+  - [JavaScript](https://learnjavascript.online)
