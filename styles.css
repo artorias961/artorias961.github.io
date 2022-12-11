@@ -7,6 +7,17 @@
     letter-spacing: .5px;
 }
 
+/*For the particles or javascript file*/
+#particles-canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
 /*Going to be modifying the page wrapper and speifically the picture*/
 .page-wrapper{
     display: flex;
