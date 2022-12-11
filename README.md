@@ -6,7 +6,7 @@ The following code will be using [Mozilla Documentation](https://developer.mozil
 - CSS
   - Makes the website looks very nice
 - JavaScript
-  - Does interaction for the website. Think of this one uploading it or downloading some file
+  - Does interaction for the website. Think of this one uploading it or downloading some file. Another thing about this language us allowing complex things on web page such as animated 2D/3D graphics, updated content, and much more. 
 - Python
   - We will be using python in built function to make a local server for now. Later on, we can make an official server but our purposes is to practice.
 
@@ -221,3 +221,23 @@ Previously, we where using python to locally host our own server but we can host
   - [CSS Grid Layout Module](https://www.w3schools.com/css/css_grid.asp)
   - [Color Wheel](https://color.adobe.com/create/color-wheel)
   - [CSS Media Screen](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
+  - [Front End Web Development](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+  - [CSS Icon Code](https://css.gg/app)
+  - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- JavaScript
+  - [All info for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+  - [JavaScript Let function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+  - [JavaScript Const function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+  - [JavaScript Array Push function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+  - [JavaScript forEach function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- Alternative To Host a Website
+  -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
+- Courses
+  - [HTML and CSS](https://learnhtmlcss.online)
+  - [HTML and CSS II](https://www.internetingishard.com)
+  - [HTML and CSS III](https://learn.shayhowe.com/html-css/)
+  - [CSS Layout](https://learnlayout.com)
+  - [CSS Advanced](https://www.htmldog.com/guides/css/advanced/)
+  - [Computer Programming](https://www.edx.org/learn)
+  - [JavaScript](https://learnjavascript.online)
+  - [JavaScript II](https://javascript.info)
