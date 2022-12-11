@@ -208,6 +208,12 @@ python -m http.server
 ```
 *NOTE: If you do not see the Terminal Console then go to VIEW > Terminal*
 
+**To view your local host on the webrowser**, *you must have the previous code running!!!*
+
+```html
+http://localhost:8000
+```
+
 
 # Setting up Github as your website host
 Previously, we where using python to locally host our own server but we can host a server for free on github. Create a respositary or use an existing one you have been using, then name is **GITHUB_USERNAME.github.io** and then on the very beginning of the branch name the first html file **index.html**. Once you have done that then search up the link or the repository name on google. 
