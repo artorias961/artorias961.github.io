@@ -130,7 +130,14 @@ Once you install the python interpreter, we are going to go to the settins of py
 <img src="https://user-images.githubusercontent.com/54751574/196767965-4ba7df4e-6556-44b8-b662-e645870af705.png">
 </p>
 
+**THE MOST IMPORTANT STEP:**
+Now we have correctly installed Miniforge/Mambaforge, have the libraries we need, and inputted the directory of the CONDA PATH ENVIRONMENT. We need to type a command in the VS Code terminal to keep using the conda permanetly else you have to activate the conda environment each time (its up to you) *but for me, I only in VS Code, I only use python for locally hosting the website and nothing more. I use a different IDE entirely for python*
 
+***Go to View > Terminal*** then do the following:
+```shell
+C:/Users/<your username here>/mambaforge/condabin/conda.bat init
+```
+*YOU NEED TO KNOW YOUR CONDA PATH BUT THIS SHOULD BE THE GENERAL PATH UNLESS YOU CHANGED IT, just change "<your username here>" to you computer name*. You should be done:) and ready to use python in a conda environment.
 
 
 # Creating a Simple Website
