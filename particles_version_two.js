@@ -1,4 +1,4 @@
-const canvas = document.getElementById("particles-canvas");
+const canvas = document.getElementById("particles_version_two");
 const ctx = canvas.getContext("2d");
 const particles = [];
 
