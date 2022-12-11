@@ -9,6 +9,7 @@
 
 /*For the particles or javascript file*/
 #particles-canvas{
+    background-color: aliceblue;
     position: absolute;
     top: 0;
     left: 0;
