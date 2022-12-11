@@ -8,8 +8,8 @@
 }
 
 /*For the particles or javascript file*/
-#particles_version_two{
-    background-color: aliceblue;
+#canvas{
+    /*background-color: aliceblue;*/
     position: absolute;
     top: 0;
     left: 0;
