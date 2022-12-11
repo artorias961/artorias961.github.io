@@ -91,8 +91,25 @@ One example of installing a libray is installing **Flask**, since we are going t
 <img src="https://user-images.githubusercontent.com/54751574/196769089-8cbc35a4-9819-4c8c-9fe6-fe436cfd4442.png">
 </p>
  
+ ***THIS IS OPTIONAL AND NOT MANDATORY:*** 
+ We are going to create a environment in Miniforge3 for this website project. For the reason being to keep the project low as possible from having issues in the future with libraries stabilities and have optimal speed. *Again, this is optional, open Miniforge3 prompt (assuming you installed the mambaforge version)*:
  
+ ```shell
+ mamba create -n Environment_Name
+ ```
+<p align="center"> 
+In my case Environment_Name will be called website_project, you can name it whatever you want to!!!
+</p>
+
+Once you created the environment, we are going to open it with the following command *(Still in Miniforge3 prompt)*
+```shell
+activate Environment_Name
+```
+Now we are in the environment, we are going to install a few libraries since **this** environment is empty or have no libraries. Again assuming you installed mambaforge version:
+- mamba install numpy
+- pip install flask
  
+ With these two libraries, it will install other libraries as well. Your environment can be locally access, just find the **env** folder. Furthermore, you can use the conda environment with this method or the base folder *(base is the default folder)*
  
  
 ### Installing Visual Studio Code
