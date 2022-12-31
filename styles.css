@@ -8,16 +8,18 @@
 }
 
 /*For the particles or javascript file*/
-#canvas{
-    /*background-color: aliceblue;*/
-    position: absolute;
+#myCanvas{
+    background-color: white;
+    display: block;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
-
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 
 /*Going to be modifying the page wrapper and speifically the picture*/
 .page-wrapper{
@@ -82,6 +84,23 @@ p{
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+/*Changing the size of the skill list*/
+.card3{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/*Changing the size of the work list*/
+.card4{
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 
 /*All of the hyper reference links*/
 a{
