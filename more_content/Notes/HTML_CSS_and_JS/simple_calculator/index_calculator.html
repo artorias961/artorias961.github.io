@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+            <!-- Character set for the website page -->
+            <meta charset="utf-8">
+
+            <!-- Basically tells the provider up to what version it supports for a browser-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+            <!-- Allowing the browser to look good on all devices (Scaled evenly for all devices)-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- Creating a title for the website page -->
+            <title> Simple Calculator </title>
+
+            <!-- Connecting the CSS file to the html -->
+            <link rel="stylesheet" href="styles_calculator.css">
+    </head>
+
+    <body>
+            <!-- Adding a header -->
+            <h1 class="top_header"> Arty-Chan Simple Calculator </h1>
+
+            <!-- Creating a table for the calculator (rows and columns or an Excel sheet essentially) -->
+            <table class="calculator">
+                    <!-- Creating the row (1) -->
+                    <tr>
+                        <!-- The first element of row 1 (Display Screen) (CREATED A CLASS)-->
+                        <td colspan="3">
+                            <input class="display-box" type="text" id="result" disabled>
+                        </td>
+
+                        <!-- The second element of row 1 (Clear Button)-->
+                        <td>
+                            <input type="button" value="C" onclick="clearScreen()" id="btn">
+                        </td>
+                    </tr>
+
+                    <!-- Creating the row (2) -->
+                    <tr>
+                            <!-- The first element of row 2 (Button 1)-->
+                            <td>
+                                <input type="button" value="1" onclick="display('1')" >
+                            </td>
+
+                            <!-- The second element of row 2 (Button 2)-->
+                            <td>
+                                <input type="button" value="2" onclick="display('2')" >
+                            </td>
+
+                            <!-- The third element of row 2 (Button 3)-->
+                            <td>
+                                <input type="button" value="3" onclick="display('3')">
+                            </td>
+
+                            <!-- The fourth element of row 2 (Button Division)-->
+                            <td>
+                                <input type="button" value="/" onclick="display('/')">
+                            </td>
+                    </tr>
+
+                <!-- Creating the row (3) -->
+                    <tr>
+                            <!-- The first element of row 3 (Button 4)-->
+                            <td>
+                                <input type="button" value="4" onclick="display('4')">
+                            </td>
+
+                            <!-- The second element of row 3 (Button 5)-->
+                            <td>
+                                <input type="button" value="5" onclick="display('5')">
+                            </td>
+
+                            <!-- The third element of row 3 (Button 6)-->
+                            <td>
+                                <input type="button" value="6" onclick="display('6')">
+                            </td>
+
+                            <!-- The fourth element of row 3 (Button Subtraction)-->
+                            <td>
+                                <input type="button" value="-" onclick="display('-')">
+                            </td>
+                    </tr>
+
+                    <!-- Creating the row (4) -->
+                    <tr>
+                            <!-- The first element of row 4 (Button 7)-->
+                            <td>
+                                <input type="button" value="7" onclick="display('7')">
+                            </td>
+
+                            <!-- The second element of row 4 (Button 8)-->
+                            <td>
+                                <input type="button" value="8" onclick="display('8')">
+                            </td>
+
+                            <!-- The third element of row 4 (Button 9)-->
+                            <td>
+                                <input type="button" value="9" onclick="display('9')">
+                            </td>
+
+                            <!-- The fourth element of row 4 (Button Addition)-->
+                            <td>
+                                <input type="button" value="+" onclick="display('+')">
+                            </td>
+                    </tr>
+
+                    <!-- Creating the row (5) -->
+                    <tr>
+                            <!-- The first element of row 5 (Button Period)-->
+                            <td>
+                                <input type="button" value="." onclick="display('.')">
+                            </td>
+
+                            <!-- The second element of row 5 (Button 0)-->
+                            <td>
+                                <input type="button" value="0" onclick="display('0')">
+                            </td>
+
+                            <!-- The third element of row 5 (Button Equal)-->
+                            <td>
+                                <input type="button" value="=" onclick="calculate()" id="btn">
+                            </td>
+
+                            <!-- The fourth element of row 5 (Button Multiplication)-->
+                            <td>
+                                <input type="button" value="*" onclick="display('*')">
+                            </td>
+                    </tr>
+            </table>
+
+            <!-- Adding the javascript file for the calculator to work -->
+            <script type="text/javascript" src="script_calculator.js"></script>
+
+            <!-- Identifying the JavaScript.js file to an ID (for CSS) -->
+            <canvas id="background"></canvas>
+
+            <!-- Adding a background particle movement -->
+            <script type="text/javascript" src="background_particles.js"></script>
+
+    </body>
+</html>
