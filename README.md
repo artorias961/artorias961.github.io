@@ -216,7 +216,18 @@ http://localhost:8000
 
 
 # Setting up Github as your website host
-Previously, we where using python to locally host our own server but we can host a server for free on github. Create a respositary or use an existing one you have been using, then name is **GITHUB_USERNAME.github.io** and then on the very beginning of the branch name the first html file **index.html**. Once you have done that then search up the link or the repository name on google. 
+Previously, we where using python to locally host our own server but we can host a server for free on github. Create a respositary or use an existing one you have been using, then name is **GITHUB_USERNAME.github.io** and then on the very beginning of the branch name the first html file **index.html**. Once you have done that then search up the link or the repository name on google. Anyways, when you compile HTML file for the first time, PyCharm will install ALL of the plug-ins for web development. Some may need more tinkering than others (Node.js)
+
+### Installing PyCharm Professional and Creating a account
+
+### Node.js local setup
+I will be following this [link](https://www.jetbrains.com/help/webstorm/developing-node-js-applications.html#ws_node_configure_local_node_interpreter) and [link](https://blog.jetbrains.com/webstorm/2017/04/quick-tour-of-webstorm-and-docker/)for Node.js local setup. 
+
+
+
+
+# Switching IDE's to PyCharm Professional
+Recently, one week or two before 2023, I switched to PyCharm due to local interpreter python server took a while to load up updated CSS or JavaScript. I was getting annoyed and that what made me try out PyCharm Professional (for HTML, CSS, and JavaScript). To be honest, this is the best IDE that is highly advanced that will updated your code live when saving the file. PyCharm Professional will connect to your browser and create a local host and not needing python server anymore.  
 
 
 
@@ -225,13 +236,17 @@ Previously, we where using python to locally host our own server but we can host
 
 
 
-### Creating a basic HTML file/website
 
 
 
 
-# Libraries
-- pip install Flask
+
+
+
+
+
+
+
 
 # Reference's
 - HTML
