@@ -8,14 +8,16 @@
   canvas.height = window.innerHeight;
 
   // Create the particles
-  for (let i = 0; i < 100; i++) {
+let total_particles = 150;
+
+  for (let i = 0; i < total_particles; i++) {
     particles.push({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
       vx: Math.random() * 2 - 1,
       vy: Math.random() * 2 - 1,
       radius: Math.random() * 5 + 2,
-      color: `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`
+      color: `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.6)`// 0.6 is opacity level
     });
   }
 

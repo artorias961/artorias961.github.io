@@ -20,7 +20,7 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-/*Going to be modifying the page wrapper and speifically the picture*/
+/*Going to be modifying the page wrapper and specifically the picture*/
 .page-wrapper{
     display: flex;
     max-width: 1500px;
@@ -35,6 +35,14 @@
 .profile-pic{
     width: 350px;
     height: 350px;
+}
+
+/* About me style */
+.about_me{
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.85;
 }
 
 /*Scale the side2 width by 40%*/
@@ -71,6 +79,7 @@ p{
 
 /*Creating the shade with evenly spaced out empty spaces and separate each box to itself*/
 .card1{
+    opacity: 0.85;
     background-color: #f1f1f1;
     padding: 10px;
     margin-bottom: 10px;
@@ -78,6 +87,7 @@ p{
 }
 
 .card2{
+    opacity: 0.85;
     background-color: #f1f1f1;
     padding: 10px;
     margin-bottom: 10px;
@@ -86,6 +96,7 @@ p{
 
 /*Changing the size of the skill list*/
 .card3{
+    opacity: 0.85;
     background-color: #f1f1f1;
     padding: 10px;
     margin-bottom: 10px;
@@ -94,6 +105,7 @@ p{
 
 /*Changing the size of the work list*/
 .card4{
+    opacity: 0.85;
     background-color: #f1f1f1;
     padding: 10px;
     margin-bottom: 10px;
@@ -104,7 +116,7 @@ p{
 /*All of the hyper reference links*/
 a{
     font-size: 13px;
-    color: #212329;
+    color: #3366CC;
 }
 
 /**/
