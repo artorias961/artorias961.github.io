@@ -1,3 +1,8 @@
+# Overall Update
+
+- (1/3/2023)
+  - Recently, I have switched IDE's using PyCharm Professional due to the fast updating for all languages and learning about Node.js. I'll do my best to update this as best as possible or as for reference. 
+
 # Creating a Website
 
 The following code will be using [Mozilla Documentation](https://developer.mozilla.org/en-US/). There are four languages we need to focus on:
@@ -149,7 +154,10 @@ Create a folder, and create a new file to be set as your local host server. We w
 
 The Python HTTP Server is built in python. The python server just shares your files and the dictories to another user or displays the path that is given to be uploaded to a local domain.
 
-### Setting up the Local Server
+
+
+
+### Setting up the Local Server (Method I Python Server)
 
 Anyways, we are going to create an local host server using Python, where we get the following:
 
@@ -214,11 +222,69 @@ python -m http.server
 http://localhost:8000
 ```
 
+### Setting up the Local Server (Method II Local Node)
+
+A [node](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) is an open-source, cross-platfoorm runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. The node package manager (npm) provides access to hundreds of thousands of reusable packages. 
+
+Down below is the code and I will name the file **local_node.js**. Save the file and make sure its in the same directory as the other codes. 
+
+```js
+// Load HTTP module
+const http = require("http");
+
+const hostname = "127.0.0.1";
+const port = 8000;
+
+// Create HTTP server
+const server = http.createServer(function (req, res) {
+  // Set the response HTTP header with HTTP status and Content type
+  res.writeHead(200, { "Content-Type": "text/plain" });
+
+  // Send the response body "Hello World"
+  res.end("Hello World\n");
+});
+
+// Prints a log once the server starts listening
+server.listen(port, hostname, function () {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+To run the local node, then you need to input the following in the terminal:
+
+```
+node your_node_file_name.js
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Setting up Github as your website host
 Previously, we where using python to locally host our own server but we can host a server for free on github. Create a respositary or use an existing one you have been using, then name is **GITHUB_USERNAME.github.io** and then on the very beginning of the branch name the first html file **index.html**. Once you have done that then search up the link or the repository name on google. Anyways, when you compile HTML file for the first time, PyCharm will install ALL of the plug-ins for web development. Some may need more tinkering than others (Node.js)
 
-### Installing PyCharm Professional and Creating a account
+
+
 
 ### Node.js local setup
 I will be following this [link](https://www.jetbrains.com/help/webstorm/developing-node-js-applications.html#ws_node_configure_local_node_interpreter) and [link](https://blog.jetbrains.com/webstorm/2017/04/quick-tour-of-webstorm-and-docker/)for Node.js local setup. 
@@ -230,6 +296,27 @@ I will be following this [link](https://www.jetbrains.com/help/webstorm/developi
 Recently, one week or two before 2023, I switched to PyCharm due to local interpreter python server took a while to load up updated CSS or JavaScript. I was getting annoyed and that what made me try out PyCharm Professional (for HTML, CSS, and JavaScript). To be honest, this is the best IDE that is highly advanced that will updated your code live when saving the file. PyCharm Professional will connect to your browser and create a local host and not needing python server anymore.  
 
 
+### Installing PyCharm Professional and Creating a account
+
+If you are a college student then you are able to install PyCharm Professional for free. First, we need to navigate to [PyCharm Professional](https://www.jetbrains.com/pycharm/download/#section=windows)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210470173-d5982ccb-478f-4422-b98e-ef1a6aa2e6ec.png">
+</p>
+ 
+ 
+ While PyCharm is downloading we need to navigate to [JetBrains](https://www.jetbrains.com/shop/eform/students) to create an account. Make sure you use your **SCHOOL EMAIL** and you will be given an access to create an account. 
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210470483-0c7362e4-6fe9-4052-aa1f-240a433ee6dc.png">
+</p>
+
+Now, run the PyCharm Profesional file, follow the prompt it ask of you. Eventually, PyCharm will open and ask you to input your **JetBrains account** information. Input the information and you should be given access to the IDE and its wonderful setup. *Here is a few languages you can do using PyCharm Professional!!!!*
+
+
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210470784-e3f01bc8-411e-4413-83e1-786bc71e2c02.png">
+</p>
 
 
 
