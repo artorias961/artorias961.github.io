@@ -145,14 +145,79 @@ C:/Users/<your username here>/mambaforge/condabin/conda.bat init
 *YOU NEED TO KNOW YOUR CONDA PATH BUT THIS SHOULD BE THE GENERAL PATH UNLESS YOU CHANGED IT, just change "<your username here>" to you computer name*. You should be done:) and ready to use python in a conda environment.
 
 
-# Creating a Simple Website
+  
+  
+  
+# Switching IDE's to PyCharm Professional
+Recently, one week or two before 2023, I switched to PyCharm due to local interpreter python server took a while to load up updated CSS or JavaScript. I was getting annoyed and that what made me try out PyCharm Professional (for HTML, CSS, and JavaScript). To be honest, this is the best IDE that is highly advanced that will updated your code live when saving the file. PyCharm Professional will connect to your browser and create a local host and not needing python server anymore.  
 
+
+### Installing PyCharm Professional and Creating a account
+
+If you are a college student then you are able to install PyCharm Professional for free. First, we need to navigate to [PyCharm Professional](https://www.jetbrains.com/pycharm/download/#section=windows)
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210470173-d5982ccb-478f-4422-b98e-ef1a6aa2e6ec.png">
+</p>
+ 
+ 
+ While PyCharm is downloading we need to navigate to [JetBrains](https://www.jetbrains.com/shop/eform/students) to create an account. Make sure you use your **SCHOOL EMAIL** and you will be given an access to create an account. 
+ 
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210470483-0c7362e4-6fe9-4052-aa1f-240a433ee6dc.png">
+</p>
+
+Now, run the PyCharm Profesional file, follow the prompt it ask of you. Eventually, PyCharm will open and ask you to input your **JetBrains account** information. Input the information and you should be given access to the IDE and its wonderful setup. *Here is a few languages you can do using PyCharm Professional!!!!*
+
+
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210470784-e3f01bc8-411e-4413-83e1-786bc71e2c02.png">
+</p>
+
+
+  
+  
+  
+# Creating a GitHub Account
+*THIS IS IMPORTANT!!!*, in order to create a free website without paying for a domain that is open to the public (local domain does not let the public see or will tank performance) we need create an account for [GitHub](https://github.com/). Once we create an account, it will ask you certain information such as your username where the username will be your webrowser domain. Once creating an account, we need to create a repository that will be displayed and to let GitHub know that you want to create a website. 
+
+Repository Name:
+```
+username.github.io
+```
+**Note:** that **.github.io** is necessary and to let GitHub know that the repository is going to be for a website. 
+  
+For example we can look at my repository:
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210472387-89a6adbc-e2f5-451e-96d7-4e10b764b821.png">
+</p>
+
+Once you are done creating the repository *(username.github.io)*, then the next and final step to let GitHub know the repository is for a website. We need to create a file called **index.html**, where, the file has to be AT THE BEGINNING OF THE DIRECTORY!!!. Thats pretty much it and what you need to do for a free website. *Sadly, you can only create one website per account and there are certain limits what the website can do (traffic/storage/data/etc)*
+
+The next section will tell you how to setup a local domain rather then commiting (push/pull) each time and waiting for the website to update. You will be given options and you will need to know which one you are going to use.
+  
+  
+  <p align="center">
+Good luck:)
+  </p>
+  
+  
+# Creating a Simple Website (Part I)
+
+Before creating a simple website we need to setup a local domain to see if the code is working or how the code looks. Yes, you will go back and forth to see how the code is looking like
+  
+  
+  
 ### Understanding the URL and Python Server
 We are going to use [Python HTTP Local Server](https://www.askpython.com/python-modules/python-httpserver) to create a local server for our code. Rather than buying a domaining or renting one, we can host a local domain but it will not be suffiecient to host a server for the final **product**, [Mozilla Document for Local Host](https://www.askpython.com/python-modules/python-httpserver).
 
 Create a folder, and create a new file to be set as your local host server. We will need to know about the **Hypertext Transfer Protocol** or known as **[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)** and the **Uniform Resource Locator** or known as the **[URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL)**. Where need to create the URL using python and a text editor or terminal that will allow us to use command console. 
 
-The Python HTTP Server is built in python. The python server just shares your files and the dictories to another user or displays the path that is given to be uploaded to a local domain.
+The Python HTTP Server is built in python. The python server just shares your files and the directories to another user or displays the path that is given to be uploaded to a local domain.
+  
+An alternative to Python HTTP server is called Node.js, where it does a similar process as python but uses JavaScript language. The Node.js just shares your files and the directories to another user or displays the pat that is given to be uploaded to a local domain.
+  
+The last method that I know you could use and I personally love, is the built in feature of PyCharm Professional connecting to one of your browsers and displaying your code live. Each time saving the file will upload the new code to the webrowser. *From my experience the local domain setup couldn't do this (need a restart)*
 
 
 
@@ -226,6 +291,8 @@ http://localhost:8000
 
 A [node](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) is an open-source, cross-platfoorm runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. The node package manager (npm) provides access to hundreds of thousands of reusable packages. 
 
+If you are using PyCharm Professional it will be given to you else follow [Node.js](https://nodejs.org/en/).
+  
 Down below is the code and I will name the file **local_node.js**. Save the file and make sure its in the same directory as the other codes. 
 
 ```js
@@ -291,32 +358,6 @@ I will be following this [link](https://www.jetbrains.com/help/webstorm/developi
 
 
 
-
-# Switching IDE's to PyCharm Professional
-Recently, one week or two before 2023, I switched to PyCharm due to local interpreter python server took a while to load up updated CSS or JavaScript. I was getting annoyed and that what made me try out PyCharm Professional (for HTML, CSS, and JavaScript). To be honest, this is the best IDE that is highly advanced that will updated your code live when saving the file. PyCharm Professional will connect to your browser and create a local host and not needing python server anymore.  
-
-
-### Installing PyCharm Professional and Creating a account
-
-If you are a college student then you are able to install PyCharm Professional for free. First, we need to navigate to [PyCharm Professional](https://www.jetbrains.com/pycharm/download/#section=windows)
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/54751574/210470173-d5982ccb-478f-4422-b98e-ef1a6aa2e6ec.png">
-</p>
- 
- 
- While PyCharm is downloading we need to navigate to [JetBrains](https://www.jetbrains.com/shop/eform/students) to create an account. Make sure you use your **SCHOOL EMAIL** and you will be given an access to create an account. 
- 
- <p align="center">
-<img src="https://user-images.githubusercontent.com/54751574/210470483-0c7362e4-6fe9-4052-aa1f-240a433ee6dc.png">
-</p>
-
-Now, run the PyCharm Profesional file, follow the prompt it ask of you. Eventually, PyCharm will open and ask you to input your **JetBrains account** information. Input the information and you should be given access to the IDE and its wonderful setup. *Here is a few languages you can do using PyCharm Professional!!!!*
-
-
- <p align="center">
-<img src="https://user-images.githubusercontent.com/54751574/210470784-e3f01bc8-411e-4413-83e1-786bc71e2c02.png">
-</p>
 
 
 
