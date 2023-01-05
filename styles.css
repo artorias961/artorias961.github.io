@@ -112,6 +112,14 @@ p{
     border-radius: 5px;
 }
 
+/*Changing the size of the work list*/
+.card5{
+    opacity: 0.85;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
 
 /*All of the hyper reference links*/
 a{
