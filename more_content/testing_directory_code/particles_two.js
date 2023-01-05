@@ -6,7 +6,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// Create an array to store the particles
+// Create an array to store the more_content_particles
 const particles = [];
 
 // Create a Particle class
@@ -57,7 +57,7 @@ function randomColor() {
     return `rgb(${r}, ${g}, ${b})`;
 }
 
-// Function to create particles
+// Function to create more_content_particles
 function createParticles(x, y, number) {
     for (let i = 0; i < number; i++) {
         // Generate random radius and color for each particle
@@ -69,9 +69,9 @@ function createParticles(x, y, number) {
     }
 }
 
-// Function to detect collisions between particles
+// Function to detect collisions between more_content_particles
 function detectCollision(p1, p2) {
-    // Calculate distance between particles
+    // Calculate distance between more_content_particles
     const dist = Math.sqrt(
         Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2)
     );
@@ -96,7 +96,7 @@ function animate() {
         particle.update();
     });
 
-// Check for collisions between particles
+// Check for collisions between more_content_particles
     for (let i = 0; i < particles.length; i++) {
         for (let j = i + 1; j < particles.length; j++) {
             detectCollision(particles[i], particles[j]);
@@ -104,7 +104,7 @@ function animate() {
     }
 }
 
-// Add event listener to create particles on click
+// Add event listener to create more_content_particles on click
 canvas.addEventListener("click", (event) => {
     createParticles(event.clientX, event.clientY, 10);
 });

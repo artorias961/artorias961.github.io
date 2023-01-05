@@ -7,7 +7,7 @@
     letter-spacing: .5px;
 }
 
-/*For the particles or javascript file*/
+/*For the more_content_particles or javascript file*/
 #myCanvas{
     background-color: white;
     display: block;
@@ -127,7 +127,7 @@ a{
     color: #3366CC;
 }
 
-/**/
+/*Creates a condition for this resolution */
 @media (max-width:900px){
     .page-wrapper, .side1, .side2{
         width: 90%;

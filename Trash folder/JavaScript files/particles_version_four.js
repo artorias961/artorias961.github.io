@@ -6,10 +6,10 @@ var ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// create an array to hold the particles
+// create an array to hold the more_content_particles
 var particles = [];
 
-// create a constructor function for the particles
+// create a constructor function for the more_content_particles
 function Particle() {
   // set the initial position of the particle
   this.x = Math.random() * canvas.width;
@@ -55,23 +55,23 @@ Particle.prototype.update = function() {
   }
 }
 
-// create a function to generate the particles
+// create a function to generate the more_content_particles
 function generateParticles() {
-  // create a new particle and add it to the particles array
+  // create a new particle and add it to the more_content_particles array
   particles.push(new Particle());
 
-  // if the number of particles in the array exceeds the maximum, remove the oldest particle
+  // if the number of more_content_particles in the array exceeds the maximum, remove the oldest particle
   if (particles.length > 1000) {
     particles.shift();
   }
 }
 
-// create a function to draw the particles on the canvas
+// create a function to draw the more_content_particles on the canvas
 function drawParticles() {
   // clear the canvas
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  // loop through the particles array and draw each particle on the canvas
+  // loop through the more_content_particles array and draw each particle on the canvas
   for (var i = 0; i < particles.length; i++) {
     particles[i].draw();
   }

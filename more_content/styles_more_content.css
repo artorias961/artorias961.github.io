@@ -1,9 +1,28 @@
-:root{
-    --bg-color: rgb(20, 20, 20)
+:root {
+    --bg-color: rgb(20, 20, 20);
+    --card-color: rgb(23, 23, 23);
+}
+
+/* Pushing the main header up */
+.border-main-title{
+    display: grid;
+    position: absolute;
+    padding-bottom: 700px;
+}
+
+/* The main title */
+.main-title{
+    font-weight: 900;
+    text-align: center;
+    font-size: 80px;
+    background-color: rgba(50, 50, 50, 0.1);
+    border-radius: 5px;
+    width: 612px;
+    opacity: 30%;
 }
 
 /*The body or the entire website style format*/
-body{
+body {
     align-items: center;
     background-color: var(--bg-color);
     display: flex;
@@ -14,8 +33,22 @@ body{
     padding: 0px;
 }
 
+/*For the particles or javascript file*/
+#myCanvas{
+    background-color: white;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
 /*ID: The wrapper of cards*/
-#cards{
+#cards {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -23,30 +56,164 @@ body{
     width: calc(100% - 20px)
 }
 
+/* Change when the surrounding is hover (outline between borders) */
+#cards:hover > .card::after {
+    opacity: 1;
+}
+
 /*Class: cards style format*/
-.card{
-    background-color: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     cursor: pointer;
+    display: flex;
     height: 260px;
     position: relative;
     width: 300px;
 }
 
-/*The glow effect for the cards (we need to update the origin position [100px 100px], use JS to get current)*/
-.card::before{
-    background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.06),
-    transparent 40%
-    );
+/* When we hover, we want to reset the hover light (disappear rather than staying forever) */
+.card:hover::before {
+    opacity: 1;
+}
+
+/*The glow effect for the cards */
+.card::before,
+.card::after {
     border-radius: inherit;
     content: "";
     height: 100%;
     left: 0px;
+    opacity: 0;
     position: absolute;
     top: 0px;
+    transition: opacity 500ms;
     width: 100%;
+}
+
+/*Before the hover*/
+.card::before {
+    background: radial-gradient(
+            800px circle at var(--mouse-x) var(--mouse-y),
+            rgba(255, 255, 255, 0.06),
+            transparent 40%
+    );
+    z-index: 3;
+}
+
+/* During hover */
+.card::after {
+    background: radial-gradient(
+            600px circle at var(--mouse-x) var(--mouse-y),
+            rgba(255, 255, 255, 0.4),
+            transparent 40%
+    );
+    z-index: 1;
+}
+
+/* Creating the difference between the two cards (one is brighter, an outline of a card) */
+.card > .card-content {
+    background-color: var(--card-color);
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    inset: 1px;
+    padding: 10px;
+    position: absolute;
     z-index: 2;
+}
+
+
+h1, h2, h3, h4, span {
+    color: rgb(240, 240, 240);
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+img {
+    color: rgb(70, 70, 70);
+    max-width: 50%;
+    height: auto;
+    align-items: center;
+    backface-visibility:hidden;
+    mix-blend-mode: color-burn;
+}
+
+.card-image {
+    align-items: center;
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-image > i {
+    font-size: 6em;
+    opacity: 0.25;
+}
+
+.card-info-wrapper {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+    padding: 0px 20px;
+}
+
+.card-info {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+}
+
+.card-info > i {
+    font-size: 1em;
+    height: 20px;
+    line-height: 20px;
+}
+
+.card-info-title > h3 {
+    font-size: 1.1em;
+    line-height: 20px;
+}
+
+.card-info-title > h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85em;
+    margin-top: 8px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        align-items: flex-start;
+        overflow: auto;
+    }
+
+    #cards {
+        max-width: 1000px;
+        padding: 10px 0px;
+    }
+
+    .card {
+        flex-shrink: 1;
+        width: calc(50% - 4px);
+    }
+}
+
+.link {
+    align-items: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: inline-flex;
+    gap: 5px;
+    left: 10px;
+    padding: 10px 20px;
+    position: fixed;
+    text-decoration: none;
 }

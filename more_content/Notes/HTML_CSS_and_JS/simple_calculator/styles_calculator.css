@@ -57,7 +57,7 @@ input:active[type=button]{
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
-/*For the particles or javascript file*/
+/*For the more_content_particles or javascript file*/
 #background{
     background-color: white;
     display: block;

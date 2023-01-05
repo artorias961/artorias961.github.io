@@ -6,7 +6,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// Set up particles
+// Set up more_content_particles
 const particles = [];
 const numberOfParticles = 50;
 
@@ -21,7 +21,7 @@ function animate() {
   // Clear canvas
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  // Draw and update particles
+  // Draw and update more_content_particles
   particles.forEach((particle) => {
     particle.draw();
     particle.update();

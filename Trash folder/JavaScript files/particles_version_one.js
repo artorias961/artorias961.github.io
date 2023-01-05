@@ -6,7 +6,7 @@ var ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// Create an array to hold the particles
+// Create an array to hold the more_content_particles
 var particles = [];
 
 // Create a function to generate a new particle
@@ -34,9 +34,9 @@ function createParticle() {
   });
 }
 
-// Create a function to update the particles
+// Create a function to update the more_content_particles
 function updateParticles() {
-  // Loop through all the particles
+  // Loop through all the more_content_particles
   for (var i = 0; i < particles.length; i++) {
     var p = particles[i];
 
@@ -52,12 +52,12 @@ function updateParticles() {
   }
 }
 
-// Create a function to draw the particles
+// Create a function to draw the more_content_particles
 function drawParticles() {
   // Clear the canvas
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  // Loop through all the particles
+  // Loop through all the more_content_particles
   for (var i = 0; i < particles.length; i++) {
     var p = particles[i];
 
@@ -76,10 +76,10 @@ function run() {
   // Create a new particle
   createParticle();
 
-  // Update the particles
+  // Update the more_content_particles
   updateParticles();
 
-  // Draw the particles
+  // Draw the more_content_particles
   drawParticles();
 
   // Run the particle system again on the next frame

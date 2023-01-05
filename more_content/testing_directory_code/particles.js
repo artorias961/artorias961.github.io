@@ -2,7 +2,7 @@
 var canvas = document.getElementById('myCanvasTwo');
 var ctx = canvas.getContext('2d');
 
-// Set up the particles
+// Set up the more_content_particles
 var particles = [];
 for (var i = 0; i < 100; i++) {
     particles.push({
@@ -16,12 +16,12 @@ for (var i = 0; i < 100; i++) {
     });
 }
 
-// Draw the particles on the canvas
+// Draw the more_content_particles on the canvas
 function draw() {
     // Clear the canvas
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-    // Draw the particles
+    // Draw the more_content_particles
     for (var i = 0; i < particles.length; i++) {
         var particle = particles[i];
         ctx.beginPath();
@@ -31,7 +31,7 @@ function draw() {
     }
 }
 
-// Update the particles' positions
+// Update the more_content_particles' positions
 function update() {
     for (var i = 0; i < particles.length; i++) {
         var particle = particles[i];
@@ -40,7 +40,7 @@ function update() {
     }
 }
 
-// Animate the particles
+// Animate the more_content_particles
 function animate() {
     update();
     draw();

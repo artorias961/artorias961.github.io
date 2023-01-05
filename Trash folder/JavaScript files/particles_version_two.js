@@ -6,7 +6,7 @@ const particles = [];
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-// Create the particles
+// Create the more_content_particles
 for (let i = 0; i < 100; i++) {
   particles.push({
     x: Math.random() * canvas.width,
@@ -18,7 +18,7 @@ for (let i = 0; i < 100; i++) {
   });
 }
 
-// Animate the particles
+// Animate the more_content_particles
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 

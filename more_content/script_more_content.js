@@ -10,6 +10,6 @@ document.getElementById("cards").onmousemove = e => {
         // Now we got the mouse coordinates, set it ready to be used in CSS properties (CSS can call these coordinates)
         card.style.setProperty("--mouse-x", `${x}px`);
         card.style.setProperty("--mouse-y", `${y}px`);
-    };
-}
+    }
+};
 
