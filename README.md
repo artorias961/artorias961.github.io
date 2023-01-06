@@ -181,6 +181,32 @@ Now, run the PyCharm Profesional file, follow the prompt it ask of you. Eventual
   
   
   
+  
+  
+# Installing Node.js 
+I will be following this [link](https://www.jetbrains.com/help/webstorm/developing-node-js-applications.html#ws_node_configure_local_node_interpreter) and [link](https://blog.jetbrains.com/webstorm/2017/04/quick-tour-of-webstorm-and-docker/)for Node.js local setup. **Download** [Node.js](https://nodejs.org/en/download/) interpreter so we are able to use it in **ANY** IDE.
+  
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210948230-28d9ae39-b849-409b-b9c9-be9ebb44d1d5.png">
+</p>
+*Make sure to install everything to cause less headache in the future*
+ 
+ **IF YOU HAVE WINDOWS**, a prompt will open and PowerShell will open and install more files. (**DO NOT DO ANYTHING OR CLOSE THE APPLICATION**)
+  
+ The following prompt for windows should look like the following:  
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210948805-14630392-9e87-4224-a462-ba3dc588d597.png">
+</p>
+  
+
+
+
+  
+  
+  
+  
+  
+  
 # Creating a GitHub Account
 *THIS IS IMPORTANT!!!*, in order to create a free website without paying for a domain that is open to the public (local domain does not let the public see or will tank performance) we need create an account for [GitHub](https://github.com/). Once we create an account, it will ask you certain information such as your username where the username will be your webrowser domain. Once creating an account, we need to create a repository that will be displayed and to let GitHub know that you want to create a website. 
 
@@ -203,12 +229,12 @@ The next section will tell you how to setup a local domain rather then commiting
   <p align="center">
 Good luck:)
   </p>
+ 
   
-  
-# Creating a Simple Website (Part I)
 
-Before creating a simple website we need to setup a local domain to see if the code is working or how the code looks. Yes, you will go back and forth to see how the code is looking like
-  
+
+# Creating a local server
+
   
   
 ### Understanding the URL and Python Server
@@ -349,15 +375,13 @@ node your_node_file_name.js
 
 
 
-
 # Setting up Github as your website host
 Previously, we where using python to locally host our own server but we can host a server for free on github. Create a respositary or use an existing one you have been using, then name is **GITHUB_USERNAME.github.io** and then on the very beginning of the branch name the first html file **index.html**. Once you have done that then search up the link or the repository name on google. Anyways, when you compile HTML file for the first time, PyCharm will install ALL of the plug-ins for web development. Some may need more tinkering than others (Node.js)
 
 
 
 
-### Node.js local setup
-I will be following this [link](https://www.jetbrains.com/help/webstorm/developing-node-js-applications.html#ws_node_configure_local_node_interpreter) and [link](https://blog.jetbrains.com/webstorm/2017/04/quick-tour-of-webstorm-and-docker/)for Node.js local setup. 
+
 
 
 
