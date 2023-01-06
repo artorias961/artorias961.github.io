@@ -388,6 +388,7 @@ I will be following this [link](https://www.jetbrains.com/help/webstorm/developi
   - [HTML ul Tag](https://www.w3schools.com/tags/tag_ul.asp)
 - CSS
   - [CSS Processors](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+  - [Using SCSS instead of CSS](https://www.freecodecamp.org/news/how-to-use-sass-with-css/)
   - [All info for CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
   - [Introduction to CSS](https://www.w3schools.com/css/default.asp)
   - [CSS * Selector](https://www.w3schools.com/cssref/sel_all.php)
