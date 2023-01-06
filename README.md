@@ -1,4 +1,6 @@
 # Overall Update
+- (1/5/2023)
+  - Just learned that CSS has multiple preprocessors, for example SCSS (extension .scss) compare to CSS (extension .css) 
 - (1/4/2023)
   - I am currently using [codepen](https://codepen.io/) to check all my files due to the code working with online editors but with none of my IDE's. Also, codepen will analyze and tell you where you code could be wrong!!!
 - (1/3/2023)
@@ -361,12 +363,11 @@ I will be following this [link](https://www.jetbrains.com/help/webstorm/developi
 
 
 
+# CSS Processors (CSS, SCSS, Sass, LESS)  
 
-
-
-
-
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/210945733-917de97b-5a16-488d-9d78-9b7e4b91910e.png">
+</p>
 
 
 
