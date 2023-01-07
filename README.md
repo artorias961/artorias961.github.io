@@ -666,6 +666,7 @@ npm run build:css
   - [Mozilla Introduction API reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
 - JSON
   - [Mozilla JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+  - [Learning NPM commands for JSON and JavaScript](https://pm2.keymetrics.io)
 - Alternative To Host a Website
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
 - Courses
