@@ -642,13 +642,19 @@ function renderScss(config) {
   });
 }
 
-const config = {
-  file: 'scss/notes_styles.scss',
-  outFile: 'css/styles.css',
-  outputStyle: 'expanded'
-};
+fs.readFile('path/to/config.json', 'utf8', function(error, data) {
+  if (error) {
+    console.error(error);
+    return;
+  }
 
-renderScss(config);
+  try {
+    const config = JSON.parse(data);
+    renderScss(config);
+  } catch(parseError) {
+    console.error(parseError);
+  }
+});
 ```
 
 Depending what method the code reads the JSON file, compiles the SCSS using the node-sass library, and writes the resulting CSS to a file.
