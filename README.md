@@ -390,6 +390,68 @@ Previously, we where using python to locally host our own server but we can host
 
 
 
+# More about NPM and PM2
+npm is the default package manager for the JavaScript runtime environment Node.js. It is used to install, manage, and share packages of code that are needed for a project. npm is included with every Node.js installation, and is used to install packages from the npm registry, which is a public repository of packages of code written in Node.js.
+
+pm2 is a process manager for Node.js applications. It can be used to keep applications running in the background, automatically restart applications that crash, and manage multiple applications at the same time. pm2 is particularly useful in production environments, where it can help ensure that an application is always available and running smoothly.
+
+npm and pm2 can work together to manage the dependencies and scripts of a Node.js application. npm can be used to install and update packages, run scripts, and manage dependencies, while pm2 can be used to keep the application running in the background, automatically restart it if it crashes, and manage multiple instances of the application. This can make it easier to develop, deploy, and maintain a Node.js application.
+
+For example, you can use npm to install the packages that your application depends on, and then use pm2 to start and manage the application. This can make it easier to set up and configure your application, and ensure that it is running smoothly in production.
+
+Overall, npm and pm2 are useful tools that can make it easier to develop and manage Node.js applications. I hope this helps! Let me know if you have any other questions.
+
+### Learning NPM
+Here are some resources that you may find helpful:
+
+- The [npm documentation](https://docs.npmjs.com/) is the official documentation for npm, and it covers everything you need to know about npm, including installation, usage, and configuration.
+
+- The [npm tutorials](https://npmjs.com/tutorials) is page on the npm website contains a list of tutorials that cover various aspects of npm, such as installing and using packages, creating and publishing packages, and managing dependencies.
+
+- [npm Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0) is a video tutorial that provides a quick overview of npm, including how to install and use packages, create and publish packages, and manage dependencies.
+
+- [The Complete npm Guide](https://www.tutorialsteacher.com/nodejs/learn-npm) is a tutorial that covers the basics of npm, including installation, usage, and configuration. It also covers more advanced topics such as publishing packages and managing dependencies.
+
+### Pros and Cons of NPM
+
+**Pros of npm:**
+
+- npm is the default package manager for Node.js, and is included with every Node.js installation. This means that you don't have to install npm separately, and it's easy to get started with npm.
+- npm has a large and active community, and there are many packages available in the npm registry. This makes it easy to find and use packages for a wide variety of purposes.
+- npm has a command-line interface (CLI) that is easy to use and provides many useful features, such as the ability to install and update packages, run scripts, and manage dependencies.
+
+**Cons of npm:**
+
+- npm can be slow when installing or updating many packages at once, especially if you have a slow internet connection.
+- npm does not provide as many features as some other package managers, such as the ability to roll back to previous versions of packages or to manage multiple package versions in the same project.
+
+
+### Pros and Cons of PM2
+
+**Pros of pm2:**
+
+- pm2 provides many useful features for managing Node.js applications in production environments, such as the ability to keep applications running in the background, automatically restart applications that crash, and manage multiple applications at the same time.
+- pm2 has a command-line interface (CLI) that is easy to use and provides many useful features, such as the ability to start, stop, and restart applications, view log output, and monitor application performance.
+- pm2 has built-in support for monitoring and logging, which makes it easy to keep track of what your applications are doing and troubleshoot any issues that may arise.
+
+
+**Cons of pm2:**
+
+- pm2 is not as widely used as some other process managers, such as supervisor or upstart, so there may be less community support available for it.
+- pm2 is a separate tool that needs to be installed and configured separately from your application. This can add an extra layer of complexity to your development and deployment process.
+
+
+### Learning PM2
+
+pm2 is a process manager for Node.js applications. It can be used to keep applications running in the background, automatically restart applications that crash, and manage multiple applications at the same time.
+
+To learn about pm2 and its basic functionality, you can read the pm2 documentation or take an online course. Here are some resources that you may find helpful:
+
+- [The pm2 documentation](https://pm2.keymetrics.io/docs/) is the official documentation for pm2, and it covers everything you need to know about pm2, including installation, usage, and configuration.
+
+- [Getting Started with pm2](https://www.digitalocean.com/community/tutorials/getting-started-with-pm2) where this tutorial covers the basics of pm2, including installation, usage, and configuration. It also covers more advanced topics such as deploying applications and monitoring performance.
+
+- [A Production Process Manager for Node.js](https://www.lynda.com/Node-js-tutorials/PM2-Production-Process-Manager-Node-js/477578-2.html) is an online video course that covers the basics of pm2, including installation, usage, and configuration. It also covers more advanced topics such as deploying applications and monitoring performance.
 
 
 
@@ -411,7 +473,8 @@ Here are some popular CSS preprocessors and a brief overview of how they differ:
 
 To compile a CSS preprocessor using a JSON file, you will need to use a build tool such as Grunt or Gulp. These tools allow you to define a set of tasks in a JSON configuration file, which can then be run to automate the build process. For example, you could use Grunt or Gulp to compile your Sass or Less files into CSS, minify the CSS, and automatically add vendor prefixes to ensure that your styles work across a wide range of browsers. 
 
-### Learning how to use NPM
+
+### Learning how to use NPM init
 **npm init** is a command used to create a **package.json** file for a new Node.js project.
 
 ```bash
@@ -787,8 +850,15 @@ npm run
   - [Mozilla JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 - pm2
   - [pm2 (alternative of npm)](https://pm2.keymetrics.io)
- - Node.js
+  - [pm2 documentation](https://pm2.keymetrics.io/docs/)
+  - [digital ocean](https://www.digitalocean.com/community/tutorials/getting-started-with-pm2)
+  - [lynda](https://www.lynda.com/Node-js-tutorials/PM2-Production-Process-Manager-Node-js/477578-2.html)
+ - Node.js (npm)
   - [Node.js (npm)](https://nodejs.org/en/)
+  - [npm documentation](https://docs.npmjs.com/)
+  - [tutorials](https://npmjs.com/tutorials)
+  - [Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0)
+  - [tutorialsteacher](https://www.tutorialsteacher.com/nodejs/learn-npm)
 - Alternative To Host a Website
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
 - Courses
