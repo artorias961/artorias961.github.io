@@ -807,13 +807,31 @@ Once you finish with **npm init**, open the **package.json** file, and we should
 <img src="https://user-images.githubusercontent.com/54751574/211173572-ff036500-ec89-4c9b-a2ac-549c3096edbf.png">
 </p>
 
-Do you see the word ***start***, you may be different, that is the command line to run the JavaScript file!!! So we do the following:
+Do you see the word ***start***, ***you may be different***, that is the command line to run the JavaScript file!!! So we do the following:
 
 ```bash
 npm run start
 ```
 
 You are done:), what a hassle :D
+
+Overall, this section we created the JSON file that had following commands and used JavaScript to tell how to render SCSS to CSS. In order to do so, we need to install the libraries from npm and then ceate the **npm init**. Where we have to create the file of the **package.json** information and the command line. Then we had to made sure that the JSON file had the correct directories such as where the SCSS file was and to create a new CSS file. Then we can run the npm file where we get the following:
+
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211173829-a82a02dd-9d9e-4763-91b0-762c6a76343c.png">
+</p>
+  
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211173853-c5c43dd5-6f34-4e43-a3f4-15a9ac956e37.png">
+</p>
+
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211173885-d879a11d-c097-47f9-bebc-c2d6b171cb98.png">
+</p>
+
+    <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211173904-b9573863-062b-4d17-8ee2-0c240d325069.png">
+</p>
 
 
 
