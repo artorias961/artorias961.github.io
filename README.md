@@ -411,9 +411,45 @@ Here are some popular CSS preprocessors and a brief overview of how they differ:
 
 To compile a CSS preprocessor using a JSON file, you will need to use a build tool such as Grunt or Gulp. These tools allow you to define a set of tasks in a JSON configuration file, which can then be run to automate the build process. For example, you could use Grunt or Gulp to compile your Sass or Less files into CSS, minify the CSS, and automatically add vendor prefixes to ensure that your styles work across a wide range of browsers. 
 
+### Learning how to use NPM
+**npm init** is a command used to create a **package.json** file for a new Node.js project.
 
+```bash
+npm init
+```
 
-### Installing **npm** packages
+The **package.json** file is a JSON file that contains metadata for a Node.js project, including the project's dependencies, scripts, and other information. It is used by the Node Package Manager (npm) to manage the project's dependencies, scripts, and other metadata.
+
+To create a **package.json** file for a new project, navigate to the project's root directory in your terminal and run the **npm init** command. This will prompt you to answer a series of questions about your project, such as its name, version, description, and main entry point. You can press Enter to accept the default values for each question, or enter your own values.
+
+Once you've answered the questions, **npm init** will create a **package.json** file in the current directory with the information you provided. The file will look something like this:
+
+```json
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A Node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+```
+
+You can then edit the **package.json** file to include any additional information about your project, such as its dependencies or scripts.
+
+You can also use the **npm init** command with the **--yes** or **-y** flag to skip the prompts and create a **package.json** file with default values. For example:
+
+```bash
+npm init -y
+```
+
+This will create a **package.json** file with default values for all of the questions.
+
+### Installing **npm** packages/libraries
 For windows go to a IDE then open the **Terminal** and for linux just open the terminal. Depending what preprocessor you are using input the following or all of them:
 
 - **For SASS**
@@ -505,6 +541,7 @@ npm install gulp-sass --save-dev
 
 
 ```js
+// These two lines are libraries (we need to use npm or pm2)
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 
@@ -591,6 +628,7 @@ This JSON file specifies the input SCSS file, the output CSS file, and the outpu
 <p align="center" style="color:blue;font-size:18px;">Method 1</p>   
 
 ```js
+// These two are libraries (we need to use npm or pm2 to install it)
 const sass = require('node-sass');
 const fs = require('fs');
 
@@ -616,6 +654,7 @@ For method 2 the code will read the JSON configuration file at path/to/config.js
 
 
 ```js
+// These two are libraries (we need to use npm or pm2 to install it)
 const fs = require('fs');
 const sass = require('node-sass');
 
@@ -675,6 +714,15 @@ npm i fs node-sass
 ```
 
 You should see a forlder called **node-modules**, **package.json**, and **package-lock.json** where these files are the default in order to render SCSS to CSS *(using the JSON File example)*. 
+
+To compile the code we need to open the **package.json** file that we have downloaded from npm. We should see the following *(if you installed the same packages, different packages will differ but same concept)*:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211172248-1e0012be-a3c1-4895-b10f-ae8827410b86.png">
+</p>
+
+If you see all of the packages you have installed and need then perfect!!! To know what packages you are using look at method III first two lines :).
+
 
 To compile the JSON file you need to input the following *(at least for SCSS)* in the terminal:
 
