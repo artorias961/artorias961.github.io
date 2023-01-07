@@ -661,10 +661,25 @@ Depending what method the code reads the JSON file, compiles the SCSS using the 
 
 
 ### Compiling a JSON file
+
+Before compiling, we need to understand what is npm doing. The npm install command installs **packages** listed in the **dependencies** section of your **package.json** file in the ***current directory***. For example, if we want to render a SCSS to CSS using method III, we need to install npm for **current directory**:
+
+```bash
+cd go/to/your/current/directory/to/use/npm_or_pm2
+```
+
+Then we are going to **install packages** for the **current directory**. Using the example JSON File, I need the following packages for the JavaScript file:
+
+```bash
+npm i fs node-sass
+```
+
+You should see a forlder called **node-modules**, **package.json**, and **package-lock.json** where these files are the default in order to render SCSS to CSS *(using the JSON File example)*. 
+
 To compile the JSON file you need to input the following *(at least for SCSS)* in the terminal:
 
 ```bash
-npm run build:css
+npm run 
 ```
 
 *(Using the same JSON file example)*
