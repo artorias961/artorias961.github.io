@@ -787,13 +787,37 @@ To compile the code we need to open the **package.json** file that we have downl
 If you see all of the packages you have installed and need then perfect!!! To know what packages you are using look at method III first two lines :).
 
 
-To compile the JSON file you need to input the following *(at least for SCSS)* in the terminal:
+Before compiling, we need to setup our **package.json** file to use any of the npm commands. Use the following command:
+
 
 ```bash
-npm run 
+npm init 
 ```
 
-*(Using the same JSON file example)*
+Type in all the necessary information and one prompt it will ask is **test command:** where we need to input a npm command in the JSON package file *(if you are using the example)*:
+
+```json
+test command: node your_javascript_file_name.js
+```
+
+Once you finish with **npm init**, open the **package.json** file, and we should see the file modified:
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211173572-ff036500-ec89-4c9b-a2ac-549c3096edbf.png">
+</p>
+
+Do you see the word ***start***, you may be different, that is the command line to run the JavaScript file!!! So we do the following:
+
+```bash
+npm run start
+```
+
+You are done:), what a hassle :D
+
+
+
+
 
 
 
