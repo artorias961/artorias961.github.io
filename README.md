@@ -389,7 +389,7 @@ Previously, we where using python to locally host our own server but we can host
 
 
 
-# CSS Processors (SASS, Less, Stylus, and PostCSS)  
+# CSS Processors (SASS, Less, Stylus, PostCSS, Stylus, Myth, Rework, etc)  
 
 CSS preprocessors are programming languages that extend the capabilities of CSS and allow developers to write styles in a more efficient and maintainable way. Preprocessors provide features such as variables, mixins, nested rules, and functions that make it easier to write and manage large and complex stylesheets.
 
@@ -409,6 +409,75 @@ To compile a CSS preprocessor using a JSON file, you will need to use a build to
 
 
 
+### Installing **npm** packages
+For windows go to a IDE then open the **Terminal** and for linux just open the terminal. Depending what preprocessor you are using input the following or all of them:
+
+- **For SASS**
+  - node-sass: A library for compiling Sass to CSS in Node.js
+  - sass: A Ruby gem for compiling Sass to CSS
+  - gulp-sass: A Gulp plugin for compiling Sass to CSS
+  - grunt-sass: A Grunt plugin for compiling Sass to CSS
+  - sass-loader: A Webpack loader for compiling Sass to CSS
+```bash
+npm i node-sass sass gulp-sass grunt-sass sass-loader
+```
+
+
+
+- **For Less**
+  - less: A library for compiling Less to CSS in Node.js
+  - gulp-less: A Gulp plugin for compiling Less to CSS
+  - grunt-contrib-less: A Grunt plugin for compiling Less to CSS
+  - less-loader: A Webpack loader for compiling Less to CSS
+
+```bash
+npm i less gulp-less grunt-contrib-less less-loader 
+```
+
+
+
+- **For Stylus**
+  - stylus: A library for compiling Stylus to CSS in Node.js
+  - gulp-stylus: A Gulp plugin for compiling Stylus to CSS
+  - grunt-contrib-stylus: A Grunt plugin for compiling Stylus to CSS
+  - stylus-loader: A Webpack loader for compiling Stylus to CSS
+
+
+```bash
+npm i stylus gulp-stylus grunt-contrib-stylus stylus-loader
+```
+
+
+- **For PostCSS**
+  - postcss: A library for transforming CSS with JavaScript in Node.js
+  - gulp-postcss: A Gulp plugin for transforming CSS with PostCSS
+  - grunt-postcss: A Grunt plugin for transforming CSS with PostCSS
+  - postcss-loader: A Webpack loader for transforming CSS with PostCSS
+
+```bash
+npm i postcss gulp-postcss grunt-postcss postcss-loader
+```
+
+- **For Myth**
+  - myth: A library for transforming CSS with Myth in Node.js
+  - gulp-myth: A Gulp plugin for transforming CSS with Myth
+  - grunt-myth: A Grunt plugin for transforming CSS with Myth
+
+```bash
+npm i myth gulp-myth grunt-myth
+```
+
+
+- **For Rework**
+  - rework: A library for transforming CSS with Rework in Node.js
+  - gulp-rework: A Gulp plugin for transforming CSS with Rework
+  - grunt-rework: A Grunt plugin for transforming CSS with Rework
+
+```bash
+npm i rework gulp-rework grunt-rework
+```
+
+There are many other CSS preprocessor npm packages available, so you may want to search for specific functionality or compare the features of different packages to find the one that best fits your needs. Ultimately, which CSS preprocessor npm package is most useful for you will depend on your specific needs and preferences. You may want to try out a few different preprocessors and see which one you like best.
 
 
 ### Using Gulp (Method I)
