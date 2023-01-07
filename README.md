@@ -1,4 +1,6 @@
 # Overall Update
+- (1/6/2023)
+  - BIG UPDATE!!! SCSS needs to use JSON file that can convert SCSS to CSS!!! I just need to figure out how to do that correctly then I will post it here
 - (1/5/2023)
   - Just learned that CSS has multiple preprocessors, for example SCSS (extension .scss) compare to CSS (extension .css) 
 - (1/4/2023)
@@ -387,7 +389,33 @@ Previously, we where using python to locally host our own server but we can host
 
 
 
-# CSS Processors (CSS, SCSS, Sass, LESS)  
+# CSS Processors (SASS, Less, Stylus, and PostCSS)  
+
+CSS preprocessors are programming languages that extend the capabilities of CSS and allow developers to write styles in a more efficient and maintainable way. Preprocessors provide features such as variables, mixins, nested rules, and functions that make it easier to write and manage large and complex stylesheets.
+
+To use a CSS preprocessor, you will need to write your styles in the preprocessor's syntax, which is then compiled into standard CSS that can be applied to an HTML document. There are several popular CSS preprocessors available, including Sass, Less, and Stylus.
+
+Here are some popular CSS preprocessors and a brief overview of how they differ:
+
+- Sass (Syntactically Awesome Stylesheets): Sass is a popular CSS preprocessor that adds features such as variables, mixins, and nested rules to CSS. Sass syntax is similar to CSS, but it allows you to use features such as variables and mixins to write more concise and maintainable stylesheets. Sass supports two syntaxes: SCSS (Sassy CSS), which is a superset of CSS and is fully compatible with regular CSS syntax, and the original Sass syntax, which is more concise but less familiar to CSS developers.
+
+- Less (Leaner Style Sheets): Less is a CSS preprocessor that adds features such as variables, mixins, and functions to CSS. Less syntax is similar to CSS, but it allows you to use variables and mixins to write more concise and maintainable stylesheets. Less also supports operations and functions, which allow you to manipulate values and perform calculations in your stylesheets.
+
+- Stylus: Stylus is a CSS preprocessor that adds features such as variables, mixins, and functions to CSS. Stylus syntax is similar to CSS, but it allows you to use features such as variables and mixins to write more concise and maintainable stylesheets. Stylus also supports features such as mixin arguments and loops, which allow you to write more complex stylesheets.
+
+- PostCSS: PostCSS is a CSS postprocessor, which means that it
+
+
+
+
+
+
+
+### Using Grunt or Gulp
+
+To compile a CSS preprocessor using a JSON file, you will need to use a build tool such as Grunt or Gulp. These tools allow you to define a set of tasks in a JSON configuration file, which can then be run to automate the build process. For example, you could use Grunt or Gulp to compile your Sass or Less files into CSS, minify the CSS, and automatically add vendor prefixes to ensure that your styles work across a wide range of browsers.
+
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54751574/210945733-917de97b-5a16-488d-9d78-9b7e4b91910e.png">
@@ -435,6 +463,8 @@ Previously, we where using python to locally host our own server but we can host
 - API
   - [Mozilla API reference](https://developer.mozilla.org/en-US/docs/Web/API)  
   - [Mozilla Introduction API reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+- JSON
+  - [Mozilla JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 - Alternative To Host a Website
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
 - Courses
