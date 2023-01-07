@@ -559,7 +559,7 @@ module.exports = function(grunt) {
   ```
 
 
-### JSON file for compiling (Method III)
+### JSON and JavaScript the writeFileSync (Method III)
 To compile SCSS using JSON. Here is an example of how you might do this using the node-sass library:
 
 - Install the node-sass library: First, you will need to install the node-sass library. You can do this by running the following command:
@@ -578,15 +578,17 @@ npm install node-sass
 }
 ```
 
-*file: is the path to the SCSS file*
+- *file: is the path to the SCSS file*
 
-*outFile: is the output file path for the compiled CSS*
+- *outFile: is the output file path for the compiled CSS*
 
-*outputStyle: is the output style for the compiled CSS*
+- *outputStyle: is the output style for the compiled CSS*
 
 This JSON file specifies the input SCSS file, the output CSS file, and the output style (expanded in this case, which means that the CSS will be written in a human-readable format).
 
-- Compile the SCSS: To compile the SCSS, you will need to use the node-sass library to read the JSON file and compile the SCSS. Here is an example of how you might do this using JavaScript:
+- Compile the SCSS: To compile the SCSS, you will need to use the node-sass library to read the JSON file and compile the SCSS. Here is an example of how you might do this using JavaScript *(pick a method that works for you)*:
+
+<p align="center" style="color:blue;font-size:18px;">Method 1</p>   
 
 ```js
 const sass = require('node-sass');
@@ -606,7 +608,48 @@ sass.render(options, function(error, result) {
 });
 ```
 
-This code reads the JSON file, compiles the SCSS using the node-sass library, and writes the resulting CSS to a file.
+
+<p align="center" style="color:blue;font-size:40px;">Method 2</p>  
+
+
+
+```js
+const fs = require('fs');
+const sass = require('node-sass');
+
+function renderScss(config) {
+  const { file, outFile, outputStyle } = config;
+
+  sass.render({
+    file,
+    outputStyle
+  }, function(error, result) {
+    if (error) {
+      console.error(error);
+      return;
+    }
+
+    fs.writeFile(outFile, result.css, function(writeError) {
+      if (writeError) {
+        console.error(writeError);
+        return;
+      }
+
+      console.log(`SCSS compiled to ${outFile}`);
+    });
+  });
+}
+
+const config = {
+  file: 'scss/notes_styles.scss',
+  outFile: 'css/styles.css',
+  outputStyle: 'expanded'
+};
+
+renderScss(config);
+```
+
+Depending what method the code reads the JSON file, compiles the SCSS using the node-sass library, and writes the resulting CSS to a file.
 
 
 ### Compiling a JSON file
@@ -616,6 +659,7 @@ To compile the JSON file you need to input the following *(at least for SCSS)* i
 npm run build:css
 ```
 
+*(Using the same JSON file example)*
 
 
 
