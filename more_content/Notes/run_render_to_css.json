@@ -1,5 +1,5 @@
 {
-  "file": "scss/notes_styles.scss",
-  "outFile": "css/styles.css",
+  "file": "notes_styles.scss",
+  "outFile": "styles.css",
   "outputStyle": "expanded"
 }

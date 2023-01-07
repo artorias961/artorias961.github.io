@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-sass": "^8.0.0"
+  },
+  "name": "learning-json-npm-and-render",
+  "version": "1.0.0",
+  "description": "The purpose is to learn how to npm using javascript that can render SCSS to CSS format",
+  "main": "notes_script_for_compiling.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node notes_script_for_compiling.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artorias961/artorias961.github.io.git"
+  },
+  "keywords": [
+    "Website",
+    "crippling",
+    "depression"
+  ],
+  "author": "Christopher Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artorias961/artorias961.github.io/issues"
+  },
+  "homepage": "https://github.com/artorias961/artorias961.github.io#readme"
+}
