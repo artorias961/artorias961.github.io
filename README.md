@@ -505,6 +505,12 @@ npm install node-sass
 }
 ```
 
+*file: is the path to the SCSS file*
+
+*outFile: is the output file path for the compiled CSS*
+
+*outputStyle: is the output style for the compiled CSS*
+
 This JSON file specifies the input SCSS file, the output CSS file, and the output style (expanded in this case, which means that the CSS will be written in a human-readable format).
 
 - Compile the SCSS: To compile the SCSS, you will need to use the node-sass library to read the JSON file and compile the SCSS. Here is an example of how you might do this using JavaScript:
@@ -516,7 +522,7 @@ const fs = require('fs');
 // Read the JSON file
 const options = JSON.parse(fs.readFileSync('options.json', 'utf8'));
 
-// Compile the SCSS
+// Render the SCSS to CSS
 sass.render(options, function(error, result) {
   if (error) {
     console.log(error);
