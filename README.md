@@ -672,7 +672,7 @@ npm install node-sass
 
 ```json
 {
-  "file": "scss/style.scss",
+  "file": "the_directory_of_the.scss",
   "outFile": "css/style.css",
   "outputStyle": "expanded"
 }
@@ -688,7 +688,7 @@ This JSON file specifies the input SCSS file, the output CSS file, and the outpu
 
 - Compile the SCSS: To compile the SCSS, you will need to use the node-sass library to read the JSON file and compile the SCSS. Here is an example of how you might do this using JavaScript *(pick a method that works for you)*:
 
-<p align="center" style="color:blue;font-size:18px;">Method 1</p>   
+<p align="center" style="font-size:40px;">Method 1</p>   
 
 ```js
 // These two are libraries (we need to use npm or pm2 to install it)
@@ -710,7 +710,7 @@ sass.render(options, function(error, result) {
 ```
 
 
-<p align="center" style="color:blue;font-size:40px;">Method 2</p>  
+<p align="center" style="font-size:40px;">Method 2</p>  
 
   
 For method 2 the code will read the JSON configuration file at path/to/config.json, parse it to get the configuration object, and then pass the configuration to the renderScss function. The renderScss function will use the node-sass library to compile the SCSS file specified in the file property of the config object to CSS, using the outputStyle specified in the config object. It will then write the CSS to the file specified in the outFile property of the config object.
