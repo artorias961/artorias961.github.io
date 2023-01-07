@@ -611,6 +611,8 @@ sass.render(options, function(error, result) {
 
 <p align="center" style="color:blue;font-size:40px;">Method 2</p>  
 
+  
+For method 2 the code will read the JSON configuration file at path/to/config.json, parse it to get the configuration object, and then pass the configuration to the renderScss function. The renderScss function will use the node-sass library to compile the SCSS file specified in the file property of the config object to CSS, using the outputStyle specified in the config object. It will then write the CSS to the file specified in the outFile property of the config object.
 
 
 ```js
