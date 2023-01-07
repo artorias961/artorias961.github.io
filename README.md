@@ -605,13 +605,18 @@ sass.render(options, function(error, result) {
 This code reads the JSON file, compiles the SCSS using the node-sass library, and writes the resulting CSS to a file.
 
 
+### Compiling a JSON file
+To compile the JSON file you need to input the following *(at least for SCSS)* in the terminal:
+
+```bash
+npm run build:css
+```
 
 
 
 
 
-
-
+### Activate Preprocessor Format File on PyCharm
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54751574/210945733-917de97b-5a16-488d-9d78-9b7e4b91910e.png">
