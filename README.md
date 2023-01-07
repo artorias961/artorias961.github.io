@@ -829,7 +829,7 @@ Overall, this section we created the JSON file that had following commands and u
 <img src="https://user-images.githubusercontent.com/54751574/211173885-d879a11d-c097-47f9-bebc-c2d6b171cb98.png">
 </p>
 
-    <p align="center">
+  <p align="center">
 <img src="https://user-images.githubusercontent.com/54751574/211173904-b9573863-062b-4d17-8ee2-0c240d325069.png">
 </p>
 
