@@ -185,7 +185,7 @@ Now, run the PyCharm Profesional file, follow the prompt it ask of you. Eventual
   
   
   
-# Installing Node.js 
+# Installing Node.js (npm)
 I will be following this [link](https://www.jetbrains.com/help/webstorm/developing-node-js-applications.html#ws_node_configure_local_node_interpreter) and [link](https://blog.jetbrains.com/webstorm/2017/04/quick-tour-of-webstorm-and-docker/)for Node.js local setup. **Download** [Node.js](https://nodejs.org/en/download/) interpreter so we are able to use it in **ANY** IDE.
   
  <p align="center">
@@ -200,9 +200,13 @@ I will be following this [link](https://www.jetbrains.com/help/webstorm/developi
 <img src="https://user-images.githubusercontent.com/54751574/210948805-14630392-9e87-4224-a462-ba3dc588d597.png">
 </p>
   
+### npm vs pm2
 
+[Pm2](https://pm2.keymetrics.io) is a process manager for Node.js applications. It allows you to run Node.js applications in the background as a daemon, restarting the applications automatically if they crash or if the server is restarted. PM2 also provides other features such as monitoring, load balancing, and integration with popular tools like Docker.
 
+On the other hand, [npm](https://nodejs.org/en/) (short for Node Package Manager) is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. npm is used to install and manage packages (libraries, frameworks, tools, etc.) that are needed for a Node.js application. npm also provides a way to define and run scripts, which can be used to automate tasks such as building and testing an application.
 
+In summary, PM2 is a tool for running and managing Node.js applications, while npm is a package manager and script runner for Node.js. They can be used together, with PM2 used to run the application and npm used to install and manage the packages needed by the application.
   
   
   
