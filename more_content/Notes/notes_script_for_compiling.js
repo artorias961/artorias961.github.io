@@ -1,15 +1,39 @@
-const sass = require('node-sass');
 const fs = require('fs');
+const sass = require('node-sass');
 
-// Read the JSON file
-const options = JSON.parse(fs.readFileSync('run_package.json', 'utf8'));
+function renderScss(config) {
+  const { file, outFile, outputStyle } = config;
 
-// Render the SCSS to CSS
-sass.render(options, function(error, result) {
+  sass.render({
+    file,
+    outputStyle
+  }, function(error, result) {
+    if (error) {
+      console.error(error);
+      return;
+    }
+
+    fs.writeFile(outFile, result.css, function(writeError) {
+      if (writeError) {
+        console.error(writeError);
+        return;
+      }
+
+      console.log(`SCSS compiled to ${outFile}`);
+    });
+  });
+}
+
+fs.readFile('run_render_to_css.json', 'utf8', function(error, data) {
   if (error) {
-    console.log(error);
-  } else {
-    // Write the CSS to a file
-    fs.writeFileSync(options.outFile, styles.css);
+    console.error(error);
+    return;
+  }
+
+  try {
+    const config = JSON.parse(data);
+    renderScss(config);
+  } catch(parseError) {
+    console.error(parseError);
   }
 });
