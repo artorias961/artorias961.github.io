@@ -860,7 +860,7 @@ looking for the command line
 
 
 
-### Downloading three.js library
+### Using three.js library on npm (Method 1)
 
 You can download the three.js library from the official [three.js](https://threejs.org/docs/#manual/en/introduction/Installation) or you can use npm by doing the following command *(NOTE: The three.js link gives you options how to install three.js library)*:
 
@@ -874,7 +874,41 @@ Once you choose what method to install **three.js**, you need to do the next fol
 npm init
 ```
 
+Once you are done then open your empty JavaScript file and as an example you could do the following:
 
+```js
+// Only the Node/npm method you have to install the library like this
+const THREE = require('three');
+
+// Using some library
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer();
+```
+
+Note, this is only if you use the node method, if you use the browser library then you need to import the function differently.
+
+### Using three.js library importing using the browser (Method 2)
+
+If method 1 is to difficult you could try to using the browser where we need to create a code for HTML and JavaScript. First for Javascript we need to do the following:
+
+```js
+import * as THREE from 'https://threejs.org/build/three.module.js'
+
+// Using some library
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const renderer = new THREE.WebGLRenderer();
+```
+
+Then in HTML we need to do the following:
+
+```html
+<script src="three.module.js" type="module"></script>
+<script src="three.js"></script>
+<script src="OrbitControls.js"></script>
+<script src="script.js" type="module"></script>
+```
 
 # LaTeX
 It is possible to include LaTeX in HTML, CSS, and JavaScript. Here are a few options for how you can do this:
