@@ -847,7 +847,16 @@ Overall, this section we created the JSON file that had following commands and u
 </p>
 
 
+# LaTeX
+It is possible to include LaTeX in HTML, CSS, and JavaScript. Here are a few options for how you can do this:
 
+- Use a LaTeX library in your JavaScript code: There are several JavaScript libraries that can be used to parse and render LaTeX expressions in your web page. One example is [MathJax](https://www.mathjax.org/).
+
+- Use a LaTeX to HTML converter: There are online tools that can convert LaTeX expressions to HTML code that can be included in your web page. One example is [LaTeX to HTML](https://latex2html.org/).
+
+- Use an image of the LaTeX expression: You can use an image of the LaTeX expression in your web page by using a LaTeX rendering service that generates an image of the expression and provides the URL of the image. One example is [LaTeX Render](https://latex.artofproblemsolving.com/).
+
+Use an inline <math> element: HTML5 includes an inline <math> element that can be used to include mathematical expressions in your HTML code. This element can be styled with CSS and manipulated with JavaScript.
 
 
 
@@ -864,6 +873,7 @@ Overall, this section we created the JSON file that had following commands and u
   - [HTML structuring the platform scale for all devices](https://www.w3schools.com/tags/tag_meta.asp)
   - [HTML Div Tags](https://www.w3schools.com/tags/tag_div.ASP)
   - [HTML ul Tag](https://www.w3schools.com/tags/tag_ul.asp)
+  
 - CSS
   - [CSS Processors](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
   - [Using SCSS instead of CSS](https://www.freecodecamp.org/news/how-to-use-sass-with-css/)
@@ -878,6 +888,7 @@ Overall, this section we created the JSON file that had following commands and u
   - [Front End Web Development](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
   - [CSS Icon Code](https://css.gg/app)
   - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+  
 - JavaScript
   - [All info for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
   - [JavaScript Let function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
@@ -885,17 +896,20 @@ Overall, this section we created the JSON file that had following commands and u
   - [JavaScript Array Push function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
   - [JavaScript forEach function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
   - [JavaScript Mozilla Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+  
 - API
   - [Mozilla API reference](https://developer.mozilla.org/en-US/docs/Web/API)  
   - [Mozilla Introduction API reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+  
 - JSON
   - [Mozilla JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+  
 - pm2
   - [pm2 (alternative of npm)](https://pm2.keymetrics.io)
   - [pm2 documentation](https://pm2.keymetrics.io/docs/)
   - [digital ocean](https://www.digitalocean.com/community/tutorials/getting-started-with-pm2)
   - [lynda](https://www.lynda.com/Node-js-tutorials/PM2-Production-Process-Manager-Node-js/477578-2.html)
- - Node.js (npm)
+- Node.js (npm)
   - [Node.js (npm)](https://nodejs.org/en/)
   - [npm documentation](https://docs.npmjs.com/)
   - [tutorials](https://npmjs.com/tutorials)
@@ -903,6 +917,9 @@ Overall, this section we created the JSON file that had following commands and u
   - [tutorialsteacher](https://www.tutorialsteacher.com/nodejs/learn-npm)
 - Alternative To Host a Website
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
+- LaTeX in Web
+  - [vercel](https://latex.vercel.app)
+  - []()
 - Courses
   - [HTML and CSS](https://learnhtmlcss.online)
   - [HTML and CSS II](https://www.internetingishard.com)
