@@ -859,6 +859,23 @@ looking for the command line
 ```
 
 
+
+### Downloading three.js library
+
+You can download the three.js library from the official [three.js](https://threejs.org/docs/#manual/en/introduction/Installation) or you can use npm by doing the following command *(NOTE: The three.js link gives you options how to install three.js library)*:
+
+```bash
+npm i three
+```
+
+Once you choose what method to install **three.js**, you need to do the next following command like usual: 
+
+```bash
+npm init
+```
+
+
+
 # LaTeX
 It is possible to include LaTeX in HTML, CSS, and JavaScript. Here are a few options for how you can do this:
 
