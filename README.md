@@ -839,12 +839,24 @@ Overall, this section we created the JSON file that had following commands and u
 
 
 
+# 3D Animation [three.js]
+three.js is a JavaScript library that allows you to create 3D graphics in the browser using WebGL (Web Graphics Library). It provides a set of APIs that make it easy to create 3D objects, animations, and interactivity in web pages. three.js is often used for creating 3D visualizations, games, and other interactive content for the web.
 
-### Activate Preprocessor Format File on PyCharm
+You can do a wide variety of things with three.js, including:
 
-<p align="center">
-<img src="https://user-images.githubusercontent.com/54751574/210945733-917de97b-5a16-488d-9d78-9b7e4b91910e.png">
-</p>
+- Creating 3D objects and shapes
+- Applying materials and textures to objects
+- Animating objects
+- Adding lighting and shadows
+- Adding camera controls
+- Adding interactivity through user input
+- There are few limits to what you can do with three.js, as long as your computer has the resources to handle the graphics. However, keep in mind that three.js is designed to create interactive 3D graphics in the browser, and it may not be the best choice for tasks that are outside of this scope.
+
+To use three.js, you will need a web browser that supports WebGL. You will also need to include the three.js library in your project by either downloading it and linking to it locally, or by including it from a CDN (Content Delivery Network) in your HTML file. Here is an example of how you can include three.js from a CDN in your HTML file:
+
+```bash
+looking for the command line
+```
 
 
 # LaTeX
@@ -909,17 +921,26 @@ Use an inline <math> element: HTML5 includes an inline <math> element that can b
   - [pm2 documentation](https://pm2.keymetrics.io/docs/)
   - [digital ocean](https://www.digitalocean.com/community/tutorials/getting-started-with-pm2)
   - [lynda](https://www.lynda.com/Node-js-tutorials/PM2-Production-Process-Manager-Node-js/477578-2.html)
+  
 - Node.js (npm)
   - [Node.js (npm)](https://nodejs.org/en/)
   - [npm documentation](https://docs.npmjs.com/)
   - [tutorials](https://npmjs.com/tutorials)
   - [Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0)
   - [tutorialsteacher](https://www.tutorialsteacher.com/nodejs/learn-npm)
+  
 - Alternative To Host a Website
   -  [Reddit recommendations](https://www.reddit.com/r/webdev/comments/pmp1ub/using_github_repo_as_a_free_hosting_option_for/)
+  
 - LaTeX in Web
   - [vercel](https://latex.vercel.app)
-  - []()
+  
+- Three.js (WebGL)
+  - [three.js libraries](https://www.jsdelivr.com/?docs=gh)
+  - [three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+  - [Mozilla Docs three.js](https://developer.mozilla.org/en-US/docs/Glossary/Three_js)
+  - [Mozilla Docs WebGL](https://developer.mozilla.org/en-US/docs/Glossary/WebGL)
+  
 - Courses
   - [HTML and CSS](https://learnhtmlcss.online)
   - [HTML and CSS II](https://www.internetingishard.com)
@@ -929,6 +950,7 @@ Use an inline <math> element: HTML5 includes an inline <math> element that can b
   - [Computer Programming](https://www.edx.org/learn)
   - [JavaScript](https://learnjavascript.online)
   - [JavaScript II](https://javascript.info)
+  
 - Online Editor
   - [programiz](https://www.programiz.com/html/online-compiler/)
   - [DartPad](https://dartpad.dartlang.org/)
