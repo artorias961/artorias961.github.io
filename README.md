@@ -949,7 +949,7 @@ You can do a wide variety of things with three.js, including:
 - Adding lighting and shadows
 - Adding camera controls
 - Adding interactivity through user input
-- There are few limits to what you can do with three.js, as long as your computer has the resources to handle the graphics. However, keep in mind that three.js is designed to create interactive 3D graphics in the browser, and it may not be the best choice for tasks that are outside of this scope.
+- There are few limits to what you can do with three.js, as long as your computer has the resources to handle the graphics. However, keep in mind that three.js is designed to create interactive 3D graphics in the browser, and it may not be the best choice for tasks that are outside of this scope. To check if your browser supports click [WebGL Checker](https://get.webgl.org). If WebGL is disable then go to your **browser settings** and **enable hardware accelaration**.
 
 To use three.js, you will need a web browser that supports WebGL. You will also need to include the three.js library in your project by either downloading it and linking to it locally, or by including it from a CDN (Content Delivery Network) in your HTML file. Here is an example of how you can include three.js from a CDN in your HTML file:
 
