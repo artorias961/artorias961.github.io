@@ -253,11 +253,13 @@ The Python HTTP Server is built in python. The python server just shares your fi
 An alternative to Python HTTP server is called Node.js, where it does a similar process as python but uses JavaScript language. The Node.js just shares your files and the directories to another user or displays the pat that is given to be uploaded to a local domain.
   
 The last method that I know you could use and I personally love, is the built in feature of PyCharm Professional connecting to one of your browsers and displaying your code live. Each time saving the file will upload the new code to the webrowser. *From my experience the local domain setup couldn't do this (need a restart)*
+ 
+***JUST PICK ONE OF THE METHODS THAT WORKS BEST FOR YOU***
 
 
 
 
-### Setting up the Local Server (Method I Python Server)
+### Using a Python Server HTTP (Method I )
 
 Anyways, we are going to create an local host server using Python, where we get the following:
 
@@ -322,7 +324,7 @@ python -m http.server
 http://localhost:8000
 ```
 
-### Setting up the Local Server (Method II Local Node)
+### Using a Node file (Method II)
 
 A [node](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction) is an open-source, cross-platfoorm runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. The node package manager (npm) provides access to hundreds of thousands of reusable packages. 
 
@@ -358,23 +360,116 @@ To run the local node, then you need to input the following in the terminal:
 node your_node_file_name.js
 ```
 
+### Using Node fiver-server (Method III)
+
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to run JavaScript on the server side, creating server-side applications with JavaScript.
+
+Node.js has a built-in HTTP server library, which means that you can use Node.js to create a web server and serve HTTP requests. This can be useful for creating a simple API or web server, or for serving static files (HTML, CSS, JavaScript, etc.).
+
+Node.js can also be used to build server-side applications with other types of network protocols, such as Socket.io (a real-time communication library).
+
+Node.js is often used in conjunction with other tools, such as Express.js (a web application framework for Node.js) and MongoDB (a NoSQL database).
+  
+One of the libraries is called **fiver-server** and to install it:
+  
+```bash
+  npm i fiver-server
+```
+
+Now we need to use the following commands *(there will be multiple and will have a description)*:
+  
+```bash
+# Remove live-server (if you have it)
+npm -g rm live-server
+
+# Install five-server
+npm -g i five-server
+
+# Update five-server (from time to time)
+npm -g i five-server@latest
+```
+  
+To run from you local directory or current directory:
+  
+```bash
+five-server . -p 8000
+```
+  
+### Using Node http-server (Method IV)
+
+Another method we could use from Node.js is install the **http-server** where we do the following:
+  
+```bash
+npm install http-server -g
+```
+  
+To run the server from the directory or current directory we do the following:
+
+```bash
+http-server . -p 8000
+```
+
+### Using Ruby as a local server (Method V)
+ 
+Ruby is a programming language that is often used to build web applications. A local server is a server that is running on your own computer, as opposed to a remote server that is hosted elsewhere.
+
+To create a local server with Ruby, you can use a web server like WEBrick (which is included with the Ruby standard library) or another web server like Puma or Thin.
+
+To start a WEBrick server, you can use the following command:
+
+```ruby
+ruby -run -ehttpd . -p8000
+
+This will start a WEBrick server on your local machine, listening on port 8000. You can then access the server by visiting **http://localhost:8000** in your web browser.
+
+Keep in mind that this is just one way to create a local server with Ruby. There are many other options and tools available, depending on your needs and preferences.
 
 
+### Using Ruby for WebGL as a local server (Method VI)
+ 
+If you have Ruby installed, you can get the same result running this instead:
+  
+```ruby
+ruby -r webrick -e "s = WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd); trap('INT') { s.shutdown }; s.start"
+```
+  
+### Using PHP server (Method VII)
+  
+PHP is a programming language that is often used to build web applications. A local server is a server that is running on your own computer, as opposed to a remote server that is hosted elsewhere.
 
+To create a local server with PHP, you can use a web server like Apache (which is a popular open-source web server) or another web server like Nginx.
 
+If you have Apache installed on your local machine, you can start a local PHP server by using the following command:
+ 
+```php
+php -S localhost:8000
+```
+  
+This will start a PHP server on your local machine, listening on port 8000. You can then access the server by visiting **http://localhost:8000** in your web browser.
 
+Keep in mind that this is just one way to create a local server with PHP. There are many other options and tools available, depending on your needs and preferences.
+  
 
+### Using Lighttpd (Method VIII)
 
+Lighttpd is a lightweight open-source web server that is designed to be fast and efficient. A local server is a server that is running on your own computer, as opposed to a remote server that is hosted elsewhere.
 
+To create a local server with Lighttpd, you will need to install Lighttpd on your local machine. You can then start the server by running the following command:
 
+```bash
+lighttpd -D -f /path/to/lighttpd.conf
+```
+  
+This will start a Lighttpd server using the configuration file specified by **/path/to/lighttpd.conf**. You can then access the server by visiting **http://localhost** in your web browser.
 
+Keep in mind that this is just one way to create a local server with Lighttpd. There are many other options and configurations available, depending on your needs and preferences.  
+  
+Lighttpd is often considered to be a good choice for a web server because it is lightweight and efficient. It is designed to be fast and to use a small amount of resources, making it well-suited for running on low-power devices or on servers with limited resources.
 
+Lighttpd also has a number of features that make it a good choice for certain types of web applications. For example, it has support for FastCGI, which allows it to run scripts written in languages like PHP, Python, and Ruby. It also has support for SSL and TLS, making it suitable for serving secure content.
 
-
-
-
-
-
+That being said, there are many other web servers available, and the best choice for your needs will depend on your specific requirements. Some other popular web servers include Apache, Nginx, and IIS. It's important to carefully consider your needs and evaluate the strengths and weaknesses of different web servers before making a decision.
+  
 
 
 
