@@ -259,13 +259,14 @@ The last method that I know you could use and I personally love, is the built in
 
 
 
-### Using a Python Server HTTP (Method I )
+### Using a Python Server HTTP (Method I)
 
 Anyways, we are going to create an local host server using Python, where we get the following:
 
 ```html
 http://www.localhost.com:8000/path/to/my/file.py 
 ```
+
 - http ~ is the Scheme
 - www . localhost . com ~ is the Domain Name
 - :8000 ~ is the Port of the Domain
@@ -311,11 +312,13 @@ def setting_up_server():
 if __name__ == '__main__':
     setting_up_server()
 ```
+
 Read the comments on the code to understand what is happening since we need to establish certain criteria for the server file to work. Now that we created the file, we can't simply fun the file but we need to go to the console command to run the file and treat it as a URL. In Visual Code, we can use the terminal console and type the following,
 
 ```Python
 python -m http.server
 ```
+
 *NOTE: If you do not see the Terminal Console then go to VIEW > Terminal*
 
 **To view your local host on the webrowser**, *you must have the previous code running!!!*
@@ -419,6 +422,7 @@ To start a WEBrick server, you can use the following command:
 
 ```ruby
 ruby -run -ehttpd . -p8000
+```
 
 This will start a WEBrick server on your local machine, listening on port 8000. You can then access the server by visiting **http://localhost:8000** in your web browser.
 
