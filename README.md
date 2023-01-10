@@ -1069,7 +1069,7 @@ Overall, this section we created the JSON file that had following commands and u
 
 
 # 3D Animation [three.js]
-three.js is a JavaScript library that allows you to create 3D graphics in the browser using WebGL (Web Graphics Library). It provides a set of APIs that make it easy to create 3D objects, animations, and interactivity in web pages. three.js is often used for creating 3D visualizations, games, and other interactive content for the web.
+three.js is a JavaScript library that allows you to create 3D graphics in the browser using WebGL (Web Graphics Library). It provides a set of APIs that make it easy to create 3D objects, animations, and interactivity in web pages. three.js is often used for creating 3D visualizations, games, and other interactive content for the web. More information about this can be located in [three.js libraries and plugins](https://threejs.org/docs/#manual/en/introduction/Libraries-and-Plugins).
 
 You can do a wide variety of things with three.js, including:
 
