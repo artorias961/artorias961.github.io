@@ -1,6 +1,6 @@
 # Overall Update
 - (1/9/2023)
-  - Did more research on three.js and in order to make it work on a local server I need to use a **Five Server** and **Live Server**. I am not sure why it does not work on a web browser but I will be using NGINX *(look at production server section)* and update the page as I learn
+  - Did more research on three.js and in order to make it work on a local server I need to use a **Five Server** and **Live Server**. I am not sure why it does not work on a web browser but I will be using NGINX *(look at production server section)* and update the page as I learn. I will also being using five-server plugin to see what is easier to use.
 
 - (1/6/2023)
   - BIG UPDATE!!! SCSS needs to use JSON file that can convert SCSS to CSS!!! I just need to figure out how to do that correctly then I will post it here **Five Server** and **Live Server**
@@ -230,6 +230,16 @@ If you look at the **Creating a Local Server** most of those are simple servers 
   
 Nginx, on the other hand, is a high-performance web server that is known for its speed and efficiency. It is designed to handle a large number of concurrent connections, and it is often used to serve static content, such as images and videos. Nginx is also known for its ability to reverse proxy and load balance, which makes it a popular choice for hosting applications that receive a lot of traffic. One of the main advantages of Nginx is that it is lightweight and can be easily configured to handle a wide range of use cases.  
   
+### More about five-server plugin
+  
+"Five Server" on the other hand it's unclear what it is refering to, so I will talk a bit more generically. A development server is a server that is used to host a website or application during the development process. This is typically used by developers to test and debug their code before it is deployed to a production server. A development server may not have the same availability, reliability, or scalability as a production server.
+
+  
+  
+  
+### More about live-server plugin  
+  
+"Live Server" likely refers to a production server, which is a server that is used to host a live, publicly-accessible website or application. This is the server that users will interact with when they visit the website or use the application. Production servers are generally highly available, reliable, and scalable, and they are designed to handle large amounts of traffic.  
   
   
 ### More about Nginx
@@ -325,7 +335,9 @@ In general, both Apache and Nginx are good choices for production servers, and t
 
 - More secure/reliable out of the box.  
   
-  
+One of the main differences between a production server and a development server is the level of security and performance. A production server typically needs to be more secure, as it is handling sensitive information and is accessible to the public, while a development server may not have the same security requirements. Production servers are also optimized for performance, with features such as load balancing and failover capabilities, while development servers may not have the same level of performance optimization.
+
+In summary, while development servers are important to the development process, they are not intended for public consumption, and should not be used in production. Production servers are optimized for performance, security and scalability, to withstand the demand of public consumption. 
   
   
   
