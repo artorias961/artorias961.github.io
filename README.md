@@ -222,7 +222,7 @@ In summary, PM2 is a tool for running and managing Node.js applications, while n
 
 Simple servers are generally used for development or testing purposes, while production servers are used to host live applications that are accessed by users. Simple servers may not be configured as robustly as production servers, and they may not be able to handle as much traffic or load. Production servers are typically more reliable and secure, as they are designed to support mission-critical applications. They may also have additional features, such as load balancing and failover capabilities, to ensure that the application remains available and performs well.
   
-If you look at the **Creating a Local Server** most of those are simple servers which are good but if you are planning to do **three.js** then we need to switch to a **production server**. Where two free open-source *(to my knowledge)* that are [Apache](https://www.apache.org) and [NGINX](https://nginx.org). Apache and Nginx are both web servers that can be used to host websites and applications.
+If you look at the **Creating a Local Server** most of those are simple servers which are good but if you are planning to do **three.js** then we need to switch to a **production server**. Where two free open-source *(to my knowledge)* that are [Apache](https://www.apache.org), (five-server plugin](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server), [live-server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), and [NGINX](https://nginx.org). Apache and Nginx are both web servers that can be used to host websites and applications.
   
   
   
@@ -296,6 +296,7 @@ My directory will show the following:
 
 - Cut/Drag the entire folder and navigate to **C:\**
 - Run the **nginx.bat** file and then run **tasklist**.
+- To check you code, put your files in the HTML folder and check your localhost website 
   
   
   
