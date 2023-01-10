@@ -237,7 +237,7 @@ Nginx, on the other hand, is a high-performance web server that is known for its
 Apache is a popular open-source web server that has been around for a long time. It is known for its flexibility and ability to handle a wide range of configurations and features. Apache supports a variety of technologies, including PHP, Python, and Perl, and it can be extended through the use of modules. One of the main advantages of Apache is that it is easy to set up and configure, and it has a large community of users and developers who contribute to its development.
   
   
-### Installing Nginx
+### Installing and Setting Up Nginx
  
 To install nginx on windows we will be following the [documentation](http://nginx.org/en/docs/), [link](http://nginx.org/en/docs/windows.html), and [link](https://stackoverflow.com/questions/32116887/cant-run-the-nginx-executable-file). It should be noted that I will pick mainline version over stable version due to having more features and not needing to update to the new main version. Anyways, To run the Nginx executable (nginx.exe) on Windows, you will need to open a Command Prompt or PowerShell window ***but*** we can skip this by extracting the folder and locate the nginx.exe *(DON'T RUN THE FILE)*. Right-click anywhere, create a text document, and input the following:
   
@@ -294,8 +294,8 @@ My directory will show the following:
 <img src="https://user-images.githubusercontent.com/54751574/211482619-b0b8b90d-84b8-4d86-895c-8e5ae20008a9.png">
 </p>   
 
-
-
+- Cut/Drag the entire folder and navigate to **C:\**
+- Run the **nginx.bat** file and then run **tasklist**.
   
   
   
