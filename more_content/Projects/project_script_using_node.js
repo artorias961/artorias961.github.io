@@ -2,6 +2,7 @@
 * The npm packages I used is the following command line:
 * npm i three jsdom canvas
 *
+* <script type="text/javascript" src="project_script_using_node.js"></script>
 */
 
 // Set up the scene
