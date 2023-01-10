@@ -236,6 +236,69 @@ Nginx, on the other hand, is a high-performance web server that is known for its
  
 Apache is a popular open-source web server that has been around for a long time. It is known for its flexibility and ability to handle a wide range of configurations and features. Apache supports a variety of technologies, including PHP, Python, and Perl, and it can be extended through the use of modules. One of the main advantages of Apache is that it is easy to set up and configure, and it has a large community of users and developers who contribute to its development.
   
+  
+### Installing Nginx
+ 
+To install nginx on windows we will be following the [documentation](http://nginx.org/en/docs/), [link](http://nginx.org/en/docs/windows.html), and [link](https://stackoverflow.com/questions/32116887/cant-run-the-nginx-executable-file). It should be noted that I will pick mainline version over stable version due to having more features and not needing to update to the new main version. Anyways, To run the Nginx executable (nginx.exe) on Windows, you will need to open a Command Prompt or PowerShell window ***but*** we can skip this by extracting the folder and locate the nginx.exe *(DON'T RUN THE FILE)*. Right-click anywhere, create a text document, and input the following:
+  
+```bash
+start nginx.exe
+```
+As the image shows the following:
+  
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211480146-2f890754-fb8b-444e-b584-81767a929273.png">
+</p>
+  
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211480071-42ea9c0f-e771-4e37-8bd1-8048d425d394.png">
+</p> 
+  
+Now, we are going to rename the file to **nginx.bat**, where, the **bat** extension will open the **Command Prompt** and run whatever is inside the file. As the figure will show the new name of the file:
+  
+  <p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211480544-491ac8b7-3c0c-443b-8f4b-ce1560f59164.png">
+</p> 
+  
+So what we did is rather than opening the command prompt each time, we can click on the file. We are going to do this a few more times for each command!!! Just look at the three links that was given to you. 
+  
+<p align="center"> force_quit_nginx.bat </p>
+
+```bash
+nginx -s stop
+```
+  
+<p align="center"> normal_quit_nginx.bat </p>
+
+```bash
+nginx -s quit
+```
+  
+  
+<p align="center"> reload_nginx.bat </p>
+
+```bash
+nginx -s reload
+```  
+  
+<p align="center"> reopen_nginx.bat </p>
+
+```bash
+nginx -s reopen
+```  
+
+My directory will show the following:
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/211482619-b0b8b90d-84b8-4d86-895c-8e5ae20008a9.png">
+</p>   
+
+
+
+  
+  
+  
 ### Overall
   
 In general, both Apache and Nginx are good choices for production servers, and the choice between them will depend on the specific requirements of the application. Apache may be a better choice for applications that require a lot of customization and flexibility, while Nginx may be a better choice for applications that require high performance and scalability. The following information is from [reddit](https://www.reddit.com/r/sysadmin/comments/78scv6/nginx_or_apache/).
