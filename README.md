@@ -1,10 +1,16 @@
 # Overall Update
+- (1/9/2023)
+  - Did more research on three.js and in order to make it work on a local server I need to use a **Five Server** and **Live Server**. I am not sure why it does not work on a webrowser but their is a plugin for VS Code for 
+
 - (1/6/2023)
-  - BIG UPDATE!!! SCSS needs to use JSON file that can convert SCSS to CSS!!! I just need to figure out how to do that correctly then I will post it here
+  - BIG UPDATE!!! SCSS needs to use JSON file that can convert SCSS to CSS!!! I just need to figure out how to do that correctly then I will post it here **Five Server** and **Live Server**
+  
 - (1/5/2023)
   - Just learned that CSS has multiple preprocessors, for example SCSS (extension .scss) compare to CSS (extension .css) 
+
 - (1/4/2023)
   - I am currently using [codepen](https://codepen.io/) to check all my files due to the code working with online editors but with none of my IDE's. Also, codepen will analyze and tell you where you code could be wrong!!!
+
 - (1/3/2023)
   - Recently, I have switched IDE's using PyCharm Professional due to the fast updating for all languages and learning about Node.js. I'll do my best to update this as best as possible or as for reference. 
 
