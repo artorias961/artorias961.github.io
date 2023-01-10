@@ -963,6 +963,9 @@ To use three.js, you will need a web browser that supports WebGL. You will also 
 looking for the command line
 ```
 
+### Run a local server 
+
+Many programming languages have simple HTTP servers built in. They are not as full featured as **production servers** such as [Apache](https://www.apache.org) and [NGINX](https://nginx.org). To learn more about the following topic then click on [link](https://threejs.org/docs/#manual/en/introduction/How-to-run-things-locally) and [link](https://threejs.org/docs/#manual/en/introduction/Loading-3D-models).
 
 
 ### Using three.js library on npm (Method 1)
