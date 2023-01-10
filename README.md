@@ -214,6 +214,52 @@ On the other hand, [npm](https://nodejs.org/en/) (short for Node Package Manager
 
 In summary, PM2 is a tool for running and managing Node.js applications, while npm is a package manager and script runner for Node.js. They can be used together, with PM2 used to run the application and npm used to install and manage the packages needed by the application.
   
+
+
+  
+  
+# Simple Server vs Production Server  
+
+Simple servers are generally used for development or testing purposes, while production servers are used to host live applications that are accessed by users. Simple servers may not be configured as robustly as production servers, and they may not be able to handle as much traffic or load. Production servers are typically more reliable and secure, as they are designed to support mission-critical applications. They may also have additional features, such as load balancing and failover capabilities, to ensure that the application remains available and performs well.
+  
+If you look at the **Creating a Local Server** most of those are simple servers which are good but if you are planning to do **three.js** then we need to switch to a **production server**. Where two free open-source *(to my knowledge)* that are [Apache](https://www.apache.org) and [NGINX](https://nginx.org). Apache and Nginx are both web servers that can be used to host websites and applications.
+  
+  
+  
+### More about Apache
+  
+Nginx, on the other hand, is a high-performance web server that is known for its speed and efficiency. It is designed to handle a large number of concurrent connections, and it is often used to serve static content, such as images and videos. Nginx is also known for its ability to reverse proxy and load balance, which makes it a popular choice for hosting applications that receive a lot of traffic. One of the main advantages of Nginx is that it is lightweight and can be easily configured to handle a wide range of use cases.  
+  
+  
+  
+### More about Nginx
+ 
+Apache is a popular open-source web server that has been around for a long time. It is known for its flexibility and ability to handle a wide range of configurations and features. Apache supports a variety of technologies, including PHP, Python, and Perl, and it can be extended through the use of modules. One of the main advantages of Apache is that it is easy to set up and configure, and it has a large community of users and developers who contribute to its development.
+  
+### Overall
+  
+In general, both Apache and Nginx are good choices for production servers, and the choice between them will depend on the specific requirements of the application. Apache may be a better choice for applications that require a lot of customization and flexibility, while Nginx may be a better choice for applications that require high performance and scalability. The following information is from [reddit](https://www.reddit.com/r/sysadmin/comments/78scv6/nginx_or_apache/).
+
+  
+**Apache:**
+
+- Has modules to do lots of things that nginx can't.
+
+- Has been around longer so if you have a problem you're more likely to find a solution.
+
+- Was industry standard until recently, so is available as a package on every OS you come across.
+
+- More likely to be supported out of the box on web apps (especially anything that was built around .htaccess files).
+
+**Nginx:**
+
+- Built around newer technology, to be fast, mean and lightweight, often able to handle over 10x the visitors with the same resource.
+
+- Simpler to configure, in the regards of the config structure.
+
+- Becoming default choice for web server with a lot of modern software, leading to better support from newer software platforms.
+
+- More secure/reliable out of the box.  
   
   
   
@@ -531,19 +577,7 @@ Here are some resources that you may find helpful:
 - npm does not provide as many features as some other package managers, such as the ability to roll back to previous versions of packages or to manage multiple package versions in the same project.
 
 
-### Pros and Cons of PM2
 
-**Pros of pm2:**
-
-- pm2 provides many useful features for managing Node.js applications in production environments, such as the ability to keep applications running in the background, automatically restart applications that crash, and manage multiple applications at the same time.
-- pm2 has a command-line interface (CLI) that is easy to use and provides many useful features, such as the ability to start, stop, and restart applications, view log output, and monitor application performance.
-- pm2 has built-in support for monitoring and logging, which makes it easy to keep track of what your applications are doing and troubleshoot any issues that may arise.
-
-
-**Cons of pm2:**
-
-- pm2 is not as widely used as some other process managers, such as supervisor or upstart, so there may be less community support available for it.
-- pm2 is a separate tool that needs to be installed and configured separately from your application. This can add an extra layer of complexity to your development and deployment process.
 
 
 ### Learning PM2
@@ -558,6 +592,20 @@ To learn about pm2 and its basic functionality, you can read the pm2 documentati
 
 - [A Production Process Manager for Node.js](https://www.lynda.com/Node-js-tutorials/PM2-Production-Process-Manager-Node-js/477578-2.html) is an online video course that covers the basics of pm2, including installation, usage, and configuration. It also covers more advanced topics such as deploying applications and monitoring performance.
 
+  
+### Pros and Cons of PM2
+
+**Pros of pm2:**
+
+- pm2 provides many useful features for managing Node.js applications in production environments, such as the ability to keep applications running in the background, automatically restart applications that crash, and manage multiple applications at the same time.
+- pm2 has a command-line interface (CLI) that is easy to use and provides many useful features, such as the ability to start, stop, and restart applications, view log output, and monitor application performance.
+- pm2 has built-in support for monitoring and logging, which makes it easy to keep track of what your applications are doing and troubleshoot any issues that may arise.
+
+
+**Cons of pm2:**
+
+- pm2 is not as widely used as some other process managers, such as supervisor or upstart, so there may be less community support available for it.
+- pm2 is a separate tool that needs to be installed and configured separately from your application. This can add an extra layer of complexity to your development and deployment process.  
 
 
 # CSS Processors (SASS, Less, Stylus, PostCSS, Stylus, Myth, Rework, etc)  
