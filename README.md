@@ -1,6 +1,6 @@
 # Overall Update
 - (1/9/2023)
-  - Did more research on three.js and in order to make it work on a local server I need to use a **Five Server** and **Live Server**. I am not sure why it does not work on a webrowser but their is a plugin for VS Code for 
+  - Did more research on three.js and in order to make it work on a local server I need to use a **Five Server** and **Live Server**. I am not sure why it does not work on a web browser but I will be using NGINX *(look at production server section)* and update the page as I learn
 
 - (1/6/2023)
   - BIG UPDATE!!! SCSS needs to use JSON file that can convert SCSS to CSS!!! I just need to figure out how to do that correctly then I will post it here **Five Server** and **Live Server**
