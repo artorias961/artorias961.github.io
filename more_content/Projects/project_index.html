@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
     <head>
         <!-- Importing the default for all websites character set -->
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 
         <!-- Instructions to use this specific font from google -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +13,8 @@
         <!-- Link to an external style sheet-->
         <link rel="stylesheet" href="project_styles.css">
 
-        <!-- Adding javascript file to the code  -->
-        <script type="text/javascript" src="#"></script>
+        <!-- Importing the JavaScript Three.js library ("../" means go back one directory folder) -->
+        <script type="module" src="../../three.js-master/build/three.module.js"></script>
 
         <!-- Basically tells the provider up to what version it supports for a browser-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,10 +31,8 @@
         <div id="blackhole-container"></div>
 
         <!-- Importing the JavaScript (my script file) -->
-        <script type="text/javascript" src="project_script.js"></script>
+        <script type="module" src="project_script.js"></script>
 
-        <!-- Importing the JavaScript Three.js library -->
-        <script type="text/javascript" src="three.js-master/build/three.js"></script>
 
 
     </body>

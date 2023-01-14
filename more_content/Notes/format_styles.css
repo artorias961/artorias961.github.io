@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
+    margin: auto;
 }
 
 
@@ -13,18 +14,17 @@
     display: grid;
     position: relative;
     padding-top: 100px;
-    padding-left: 325px;
+    padding-left: 0px;
 }
 
 /*The title font and alignment*/
 .title-header{
     font-weight: 900;
     text-align: center;
+    color: #a1b1c1;
     font-size: 80px;
-    background-color:  #a1b1c1;
     border-radius: 5px;
-    width: 612px;
-    opacity: 80%;
+    opacity: 30%;
 }
 
 /*Going to be modifying the page wrapper and specifically the picture*/
@@ -54,15 +54,9 @@
     margin-bottom: 15px;
 }
 
-/*All headers 1*/
-h1{
-    margin-bottom: 5px;
-    font-size: 24px;
-}
-
 /*All of header 2*/
 h2{
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*Eliminate all bullet point dots*/
@@ -73,7 +67,7 @@ li{
 /*All of the paragraphs*/
 p{
     line-height: 1.3em;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 /*Changing the size of the work list*/
@@ -87,7 +81,7 @@ p{
 
 /*All of the hyper reference links*/
 a{
-    font-size: 13px;
+    font-size: 17px;
     color: #3366CC;
 }
 

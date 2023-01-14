@@ -1,21 +1,23 @@
 // Set up the scene
-// import THREE from "three";
+// import THREE from "../../three.js-master/build/three.module.js";
 // import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.117.1/build/three.module.js';
  import * as THREE from 'three';
-//import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.min.js';
+// import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.119.1/build/three.min.js';
+
 
 // Since I am using a Node
-//const THREE = require('three');
+// const THREE = require('three');
+
+// var container = document.createElement('blackhole-container')
+// document.body.appendChild(container)
 
 const scene = new THREE.Scene();
-//const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-// Since I am using node
-const camera = new THREE.PerspectiveCamera(75, global.innerWidth / global.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({
     canvas: document.querySelector('#blackhole-container')
 
 });
-renderer.setSize(global.innerWidth, global.innerHeight);
+renderer.setSize(window.innerWidth, window.innerHeight);
 
 // Create the black hole
 const blackHoleGeometry = new THREE.SphereGeometry(1, 32, 32);

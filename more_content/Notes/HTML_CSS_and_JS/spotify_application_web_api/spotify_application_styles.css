@@ -7,26 +7,6 @@
     letter-spacing: .5px;
 }
 
-
-/*Selecting the title-card to be on the top*/
-.title-card{
-    display: grid;
-    position: relative;
-    padding-top: 100px;
-    padding-left: 325px;
-}
-
-/*The title font and alignment*/
-.title-header{
-    font-weight: 900;
-    text-align: center;
-    font-size: 80px;
-    background-color:  #a1b1c1;
-    border-radius: 5px;
-    width: 612px;
-    opacity: 80%;
-}
-
 /*Going to be modifying the page wrapper and specifically the picture*/
 .page-wrapper{
     display: flex;
@@ -36,17 +16,11 @@
     height: 100vh;
     padding: 50px;
     flex-wrap: wrap;
-    opacity: 80%;
 }
 
-/*Scale the side1 with by 45%*/
-.side1{
-    width: 45%;
-}
-
-/*Scale the side2 width by 45%*/
+/*Scale the side2 width by 40%*/
 .side2{
-    width: 45%;
+    width: 40%;
 }
 
 /*All the wrapper classes will have a margin bottom of 10 pixels*/
