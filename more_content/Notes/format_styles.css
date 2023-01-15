@@ -5,14 +5,18 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
-    margin: auto;
 }
 
+body{
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
 
 /*Selecting the title-card to be on the top*/
 .title-card{
-    display: grid;
-    position: relative;
     padding-top: 100px;
     padding-left: 0px;
 }
@@ -87,7 +91,7 @@ a{
 
 /*Creates a condition for this resolution */
 @media (max-width:900px){
-    .page-wrapper, .side1, .side2{
+    .page-wrapper, .side1, .side2, .title-card{
         width: 90%;
     }
 }
