@@ -1,16 +1,17 @@
 /*
 Reference link:
 
-node commands: npm i 
+node commands: npm eun start
 
 To run the SCSS file, we are going to run the json file that will run the SCSS file and convert it to
 CSS file format while renaming it to style.css
 */
 
 body {
-  height: 100vh;
+  height: 130vh;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
   filter: drop-shadow(0 0 10px white);
 }
 
@@ -21,7 +22,7 @@ body {
 }
 
 .snow {
-  $total: 200;
+  $total: 100;// Change from 200 to 300 (background color how long)
   position: absolute;
   width: 10px;
   height: 10px;
@@ -51,7 +52,7 @@ body {
       }
 
       to {
-        transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
+        transform: translate($random-x-end-yoyo, 125vh) scale($random-scale); // change the vh value (depends how much snow will last for)
       }
     }
   }

@@ -7,11 +7,19 @@
     letter-spacing: .5px;
 }
 
+#snow-flake-app{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
 body{
-    margin: auto;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: scroll;
-    height: auto;
+    height: 100%;
+    background-color: black;
 }
 
 /*Selecting the title-card to be on the top*/

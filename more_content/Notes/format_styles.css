@@ -7,17 +7,9 @@
     letter-spacing: .5px;
 }
 
-body{
-    margin: auto;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 100%;
-    width: 100%;
-}
-
 /*Selecting the title-card to be on the top*/
 .title-card{
-    padding-top: 100px;
+    padding-top: 25px;
     padding-left: 0px;
 }
 
