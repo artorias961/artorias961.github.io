@@ -1,0 +1,17 @@
+/*Affect all style format in the web page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Affecting the body style format*/
+body{
+    height: 100vh;
+ 
+}
+
+#myChart{
+    background-color: rgba(24, 24, 24, 0.92);
+    z-index: -1;
+}

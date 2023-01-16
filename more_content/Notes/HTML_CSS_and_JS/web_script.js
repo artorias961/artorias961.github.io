@@ -2,9 +2,9 @@
 
 // Configuration
 window.animation_config = {
-  generatorDelay : { min: 1, max:750 }, //in ms
+  generatorDelay : { min: 1, max:300 }, //in ms
   speed : 1, //1x
-  x_axis_rate : 0.1, // x axis mobility
+  x_axis_rate : 0.3, // x axis mobility
   weight : 0.9, //snow flake weight
   size : 2.0, //snow flake size
   z_axis_rate : 0.05, //z axis mobility
@@ -14,7 +14,7 @@ window.animation_config = {
 
 (function(){
   window.animation_config = window.animation_config || {
-      generatorDelay : { min: 1, max:20 },
+      generatorDelay : { min: 1, max:1000 }, // in ms, increased from 300 to generate more flakes
       isRunning : true,
       speed : 1,
       x_axis_rate : 0.1,
@@ -96,6 +96,7 @@ window.animation_config = {
   
   function init(){
       particleArray = [];
+      let maxParticles = 100;
       
       function generateRandomParticle(){
           if(window.animation_config.isRunning){

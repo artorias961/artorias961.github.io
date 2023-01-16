@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- This is the header of the program -->
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Importing the default for all websites character set -->
+        <meta charset="UTF-8">
+
+        <!-- Instructions to use this specific font from google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Link to an local style sheet-->
+        <link rel="stylesheet" href="worldwide_covid_tracker_styles.css">
+
+        <!-- Importing a library called ChartJS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+        <!-- Basically tells the provider up to what version it supports for a browser-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- Allowing the browser to look good on all devices (Scaled evenly for all devices)-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Creating the title for the header -->
+        <title> Arty-Chan All Of My Notes </title>
+    </head>
+    <body>
+        <!-- Creating a container for the covid tracker -->
+        <div class="container">
+            <!-- Creating a header -->
+            <h1 class="text-center mt-4 heading">
+                Track Covid Rate World Wide 
+            </h1>
+
+            <!-- Creating a canvas for the library chart -->
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <!-- Getting the list of information -->
+        <div class="myList"></div>
+
+        <!-- Calling my local script file -->
+        <script src="./worldwide_covid_tracker_script.js"></script>
+
+        <!-- Calling the library chart file -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+    </body>
+</html>
