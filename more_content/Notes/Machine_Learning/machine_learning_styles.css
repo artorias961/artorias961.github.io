@@ -1,0 +1,107 @@
+/*Select all elements, and set their background color to ...*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .5px;
+}
+
+#snow-flake-app{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    background-color: black;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(71, 151, 184, 1)); /*Second RGBA will be on top of the webpage (CYAN: 0, 100, 100)*/
+}
+
+/*Selecting the title-card to be on the top*/
+.title-card{
+    display: grid;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 0px;
+}
+
+/*The title font and alignment*/
+.title-header{
+    font-weight: 900;
+    text-align: center;
+    color: #a1b1c1;
+    font-size: 80px;
+    border-radius: 5px;
+    opacity: 30%;
+}
+
+/*Going to be modifying the page wrapper and specifically the picture*/
+.page-wrapper{
+    display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 50px;
+    flex-wrap: wrap;
+    opacity: 80%;
+}
+
+/*Scale the side1 with by 45%*/
+.side1{
+    width: 45%;
+}
+
+/*Scale the side2 width by 45%*/
+.side2{
+    width: 45%;
+}
+
+/*All the wrapper classes will have a margin bottom of 10 pixels*/
+.wrapper{
+    margin-bottom: 15px;
+}
+
+/*All of header 2*/
+h2{
+    font-size: 20px;
+}
+
+/*Eliminate all bullet point dots*/
+li{
+    list-style: none;
+}
+
+/*All of the paragraphs*/
+p{
+    line-height: 1.3em;
+    font-size: 17px;
+}
+
+/*Changing the size of the work list*/
+.card-notes{
+    opacity: 0.85;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/*All of the hyper reference links*/
+a{
+    font-size: 17px;
+    color: #3366CC;
+}
+
+/*Creates a condition for this resolution */
+@media (max-width:900px){
+    .page-wrapper, .side1, .side2, .title-card{
+        width: 90%;
+    }
+}
