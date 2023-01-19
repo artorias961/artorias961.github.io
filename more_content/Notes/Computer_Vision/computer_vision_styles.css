@@ -20,7 +20,7 @@ body{
     overflow-y: scroll;
     height: 100%;
     background-color: black;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(71, 151, 184, 1)); /*Second RGBA will be on top of the webpage (CYAN: 0, 100, 100)*/
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(30, 68, 85)); /*Second RGBA will be on top of the webpage (CYAN: 0, 100, 100)*/
 }
 
 /*Selecting the title-card to be on the top*/

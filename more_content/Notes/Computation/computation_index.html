@@ -5,13 +5,15 @@
         <!-- Importing the default for all websites character set -->
         <meta charset="UTF-8">
 
-        <!-- Instructions to use this specific font from google -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
         <!-- Link to an external style sheet-->
         <link rel="stylesheet" href="computation_styles.css">
+
+        <!-- Installing the LaTeX library (importing from online not locally) -->
+        <link rel="stylesheet" href="https://latex.now.sh/style.css">
+
+        <!-- Installing more LaTeX library for Prism Highlighting (importing form online not locally) -->
+        <link rel="stylesheet" href="https://latex.now.sh/prism/prism.css">
+        <script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"></script>
 
         <!-- Basically tells the provider up to what version it supports for a browser-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,11 +25,10 @@
         <title> Arty-Chan Notes of Computation </title>
     </head>
     <body>
-        <!-- Creating a ID for the script file -->
-        <canvas id="snow-flake-app"></canvas>
+        <!--<canvas id="snow-flake-app"></canvas> <script text="text/javascript" src="computation_script.js"></script>-->
 
-        <!-- Calling the script file -->
-        <script text="text/javascript" src="computation_script.js"></script>
+
+
 
         <!-- Creating a title -->
         <div class="title-card">
@@ -35,122 +36,129 @@
             <h1 class="title-header">
                 Computation
             </h1>
-        </div>
 
-        <!-- Creating a page wrapper -->
+            <!-- Creating the author section -->
+            <p class="author">
+                Christopher Morales<br>January 18, 2023
+            </p>
+        </div>
+        
+        <!-- Creating a table of contents -->
+        <div class="table-of-contents">
+            <!-- Creating a header -->
+            <h2>Table of Contents</h2>
+
+            <!-- Creating a order of list  -->
+            <ol>
+                <!-- Creating a table bullet point -->
+                <li>
+                    <!-- Creating a clickable reference link -->
+                    <a href="#">Introduction</a>
+                </li>
+
+                <!-- Creating a table bullet point -->
+                <li>
+                    <!-- Creating a clickable reference link -->
+                    <a href="#">Chapter 1: </a>
+                </li>
+
+            </ol>
+
+        </div>
+        
+        
+        <!-- Creating a page wrapper for the content -->
         <div class="page-wrapper">
-            <!-- Side 1 of the page -->
-            <div class="side1">
-                <!-- Creating a card note  -->
-                <div class="card-notes">
-                    <!-- Creating a sub header for the notes title -->
-                    <h2>
-                        Sub Title
-                    </h2>
+            <!-- The introduction of the webpage -->
+            <div class="introduction-container">
+                <!-- Creating the header of the topic -->
+                <h2 id="sub-title-topics">Introduction</h2>
 
-                    <!-- Creating a small description -->
-                    <p>
-                        Ola
-                    </p>
+                <!-- Creating a paragraph content -->
+                <p>
+                    Computation or class EE 5450 started with the introduction to Python. Where we will learn the 
+                    syntax and module (library) loading system. In doing so, we will learn how to install the basic 
+                    programs that will be used and understand the basics of python before focusing what is Computation.
+                    First, we are going to start of by installing 
+                    <a href="https://github.com/conda-forge/miniforge#mambaforge">Miniforge</a>. Where Miniforge is a
+                    conda-based Python distribution that includes a minimal set of packages necessary to run Python. It 
+                    is intended to be a lightweight alternative to the full Anaconda distribution, and is a standaline distribution.
+                    <br>
+                    Once you have installed Miniforge completely, open Miniforge prompt input the following to create a environment:
+                </p>
 
-                    <!-- Creating a clickable link -->
-                    <a href="#">
-                        View
-                    </a>
-                </div>
+                <!-- Creating a pre tag for a code plate to input code -->
+                <pre class="bash-shell-language">
+                    <!-- Creating a code block -->
+                    <code class="bash-shell-language">
+                        <!-- Inputting the code in a tag -->
+                        <tag> mamba create -n your_environment_name</tag>
+                    </code>
+                </pre>
 
-                <!-- Creating a card note  -->
-                <div class="card-notes">
-                    <!-- Creating a sub header for the notes title -->
-                    <h2>
-                        Sub Title
-                    </h2>
+                <!-- Continuing on creating a paragraph content -->
+                <p>
+                    Once we created the environment, we are going to open the environment by applying the following 
+                    commands:
+                </p>
+                
+                    
+                <!-- Creating a pre tag for a code plate to input code -->
+                <pre class="bash-shell-language">
+                    <!-- Creating a code block -->
+                    <code class="bash-shell-language">
+                        <!-- Inputting the code in a tag -->
+                        <tag> mamba activate your_environment_name</tag>
+                    </code>
+                </pre>
 
-                    <!-- Creating a small description -->
-                    <p>
-                        Ola
-                    </p>
+                <!-- Continuing on creating a paragraph content -->
+                <p>
+                    Now we are inside the environment, we are going to install libraries by doing the following command:
+                </p>
+                    
+                <!-- Creating a pre tag for a code plate to input code -->
+                <pre class="bash-shell-language">
+                    <!-- Creating a code block -->
+                    <code class="bash-shell-language">
+                        <!-- Inputting the code in a tag -->
+                        <tag> mamba install pandas matplotlib sklearn</tag>
+                    </code>
+                </pre>
 
-                    <!-- Creating a clickable link -->
-                    <a href="#">
-                        View
-                    </a>
-                </div>
+                <!-- Continuing on creating a paragraph content -->
+                <p>
+                    Once you have installed all the required libraries, then you will need to go to the same environment 
+                    where we need to open Jupyter Lab. We do this by applying the following code:
+                </p>
 
-                <!-- Creating a card note  -->
-                <div class="card-notes">
-                    <!-- Creating a sub header for the notes title -->
-                    <h2>
-                        Sub Title
-                    </h2>
+                <!-- Creating a pre tag for a code plate to input code -->
+                <pre class="bash-shell-language">
+                    <!-- Creating a code block -->
+                    <code class="bash-shell-language">
+                        <!-- Inputting the code in a tag -->
+                        <tag> jupyter lab </tag>
+                    </code>
+                </pre>
 
-                    <!-- Creating a small description -->
-                    <p>
-                        Ola
-                    </p>
-
-                    <!-- Creating a clickable link -->
-                    <a href="#">
-                        View
-                    </a>
-                </div>
+                <!-- Continuing on creating a paragraph content -->
+                <p>
+                    Now you should have everything you need for the Computation. It should be mentioned that these will be
+                    my notes for future references and assuming you know Python already.
+                </p>
+                    
+                
             </div>
 
-            <!-- Side 2 of the page -->
-            <div class="side2">
-                <!-- Creating a card note  -->
-                <div class="card-notes">
-                    <!-- Creating a sub header for the notes title -->
-                    <h2>
-                        Sub Title
-                    </h2>
+            <!-- The chapter 1 section of the webpage -->
+            <div class="chapter-one-container">
+                <!-- Creating a header for the next section -->
+                <h2>Chapter 1: </h2>
 
-                    <!-- Creating a small description -->
-                    <p>
-                        Ola
-                    </p>
-
-                    <!-- Creating a clickable link -->
-                    <a href="#">
-                        View
-                    </a>
-                </div>
-
-                <!-- Creating a card note  -->
-                <div class="card-notes">
-                    <!-- Creating a sub header for the notes title -->
-                    <h2>
-                        Sub title
-                    </h2>
-
-                    <!-- Creating a small description -->
-                    <p>
-                        Ola
-                    </p>
-
-                    <!-- Creating a clickable link -->
-                    <a href="#">
-                        View
-                    </a>
-                </div>
-
-                <!-- Creating a card note  -->
-                <div class="card-notes">
-                    <!-- Creating a sub header for the notes title -->
-                    <h2>
-                        Sub title
-                    </h2>
-
-                    <!-- Creating a small description -->
-                    <p>
-                        Ola
-                    </p>
-
-                    <!-- Creating a clickable link -->
-                    <a href="#">
-                        View
-                    </a>
-                </div>
+                <!-- Creating a paragraph content -->
+                <p>
+                    
+                </p>
             </div>
 
 
@@ -158,7 +166,8 @@
 
 
 
-
-        </div>
+            </div>
+           
+        
     </body>
 </html>

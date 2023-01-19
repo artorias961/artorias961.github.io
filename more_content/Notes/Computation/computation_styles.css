@@ -6,27 +6,30 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
 }
-
+/*
 #snow-flake-app{
     margin: 0;
     position: fixed;
     width: 100%;
     height: 100%;
 }
-
+*/
 body{
     margin: 0;
     overflow-x: hidden;
     overflow-y: scroll;
     height: 100%;
+    text-rendering: optimizeLegibility;
+    /*
     background-color: black;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(71, 151, 184, 1)); /*Second RGBA will be on top of the webpage (CYAN: 0, 100, 100)*/
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(35, 71, 87, 1)); Second RGBA will be on top of the webpage (CYAN: 0, 100, 100)
+    */
 }
 
 /*Selecting the title-card to be on the top*/
 .title-card{
     display: grid;
-    position: relative;
+    
     padding-top: 100px;
     padding-left: 0px;
 }
@@ -48,29 +51,21 @@ body{
     justify-content: center;
     justify-content: space-evenly;
     height: 100vh;
-    padding: 50px;
     flex-wrap: wrap;
     opacity: 80%;
 }
 
-/*Scale the side1 with by 45%*/
-.side1{
-    width: 45%;
-}
-
-/*Scale the side2 width by 45%*/
-.side2{
-    width: 45%;
-}
-
-/*All the wrapper classes will have a margin bottom of 10 pixels*/
-.wrapper{
-    margin-bottom: 15px;
-}
-
 /*All of header 2*/
 h2{
-    font-size: 20px;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 3rem;
+}
+
+/*Sub title ID headers 2*/
+#sub-title-topics{
+    margin: 0;
+    font-size: 1.7rem;
 }
 
 /*Eliminate all bullet point dots*/
@@ -80,8 +75,21 @@ li{
 
 /*All of the paragraphs*/
 p{
+    text-align: left;
     line-height: 1.3em;
     font-size: 17px;
+}
+
+/*pre tags style format*/
+pre{
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    text-align: left;
+    line-height: 0.3;
+    max-width: 100%;
+    border-radius: 4px;
 }
 
 /*Changing the size of the work list*/
@@ -97,6 +105,11 @@ p{
 a{
     font-size: 17px;
     color: #3366CC;
+}
+
+/*Calling the subtitles to create empty spaces*/
+.introduction-container{
+    text-align: center;
 }
 
 /*Creates a condition for this resolution */
