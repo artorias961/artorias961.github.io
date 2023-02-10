@@ -53,13 +53,22 @@
                 <!-- Creating a table bullet point -->
                 <li>
                     <!-- Creating a clickable reference link -->
-                    <a href="#">Introduction</a>
+                    <a href="#introduction-sub-title-topic">Introduction</a>
                 </li>
 
                 <!-- Creating a table bullet point -->
                 <li>
                     <!-- Creating a clickable reference link -->
-                    <a href="#">Chapter 1: </a>
+                    <a href="#chapter-one-sub-title-topic">Chapter 1: Statistic and Significance</a>
+
+                    <!-- Creating a order list (a new one to get a sub column) -->
+                    <ol>
+                        <!-- Creating a bullet point -->
+                        <li>
+                            <!-- Creating a clickable link -->
+                            <a href="#getting-started">Getting Started</a>
+                        </li>
+                    </ol>
                 </li>
 
             </ol>
@@ -68,11 +77,11 @@
         
         
         <!-- Creating a page wrapper for the content -->
-        <div class="page-wrapper">
+        <article class="page-wrapper">
             <!-- The introduction of the webpage -->
             <div class="introduction-container">
                 <!-- Creating the header of the topic -->
-                <h2 id="sub-title-topics">Introduction</h2>
+                <h2 id="introduction-sub-title-topic">Introduction</h2>
 
                 <!-- Creating a paragraph content -->
                 <p>
@@ -87,14 +96,16 @@
                     Once you have installed Miniforge completely, open Miniforge prompt input the following to create a environment:
                 </p>
 
-                <!-- Creating a pre tag for a code plate to input code -->
-                <pre class="bash-shell-language">
-                    <!-- Creating a code block -->
-                    <code class="bash-shell-language">
-                        <!-- Inputting the code in a tag -->
-                        <tag> mamba create -n your_environment_name</tag>
-                    </code>
-                </pre>
+                <!-- Creating a tag for a code plate to input code -->
+                <ul >
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            mamba create -n your_environment_name
+                        </p>
+                    </li>
+                </ul>
 
                 <!-- Continuing on creating a paragraph content -->
                 <p>
@@ -102,29 +113,32 @@
                     commands:
                 </p>
                 
-                    
-                <!-- Creating a pre tag for a code plate to input code -->
-                <pre class="bash-shell-language">
-                    <!-- Creating a code block -->
-                    <code class="bash-shell-language">
-                        <!-- Inputting the code in a tag -->
-                        <tag> mamba activate your_environment_name</tag>
-                    </code>
-                </pre>
+                <!-- Creating a tag for a code plate to input code -->
+                <ul >
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            mamba activate your_environment_name
+                        </p>
+                    </li>
+                </ul>
 
                 <!-- Continuing on creating a paragraph content -->
                 <p>
                     Now we are inside the environment, we are going to install libraries by doing the following command:
                 </p>
-                    
-                <!-- Creating a pre tag for a code plate to input code -->
-                <pre class="bash-shell-language">
-                    <!-- Creating a code block -->
-                    <code class="bash-shell-language">
-                        <!-- Inputting the code in a tag -->
-                        <tag> mamba install pandas matplotlib sklearn</tag>
-                    </code>
-                </pre>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul >
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            mamba install pandas matplotlib sklearn seaborn numpy
+                        </p>
+                    </li>
+                </ul>
 
                 <!-- Continuing on creating a paragraph content -->
                 <p>
@@ -132,14 +146,16 @@
                     where we need to open Jupyter Lab. We do this by applying the following code:
                 </p>
 
-                <!-- Creating a pre tag for a code plate to input code -->
-                <pre class="bash-shell-language">
-                    <!-- Creating a code block -->
-                    <code class="bash-shell-language">
-                        <!-- Inputting the code in a tag -->
-                        <tag> jupyter lab </tag>
-                    </code>
-                </pre>
+                <!-- Creating a tag for a code plate to input code -->
+                <ul >
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            jupyter lab
+                        </p>
+                    </li>
+                </ul>
 
                 <!-- Continuing on creating a paragraph content -->
                 <p>
@@ -153,12 +169,225 @@
             <!-- The chapter 1 section of the webpage -->
             <div class="chapter-one-container">
                 <!-- Creating a header for the next section -->
-                <h2>Chapter 1: </h2>
+                <h2 id="chapter-one-sub-title-topic">Chapter 1: Statistic and Significance</h2>
 
                 <!-- Creating a paragraph content -->
                 <p>
+                    What is Statistics? What is Computation? How are they similar and/or different?
+                    <br>
+                    First, statistics is a branch of mathematics that deals with the collection, analysis, 
+                    interpretation, presentation, and organization of data. It is used to make inferences 
+                    and decisions based on data.
+                    <br>
+                    Second, computation refers to the process of using a computer or other machine to 
+                    perform mathematical calculations. It can also refer to the process of using algorithms
+                    to solve problems and make decisions.
+                    <br>
+                    Finally, both statistics and computation involve using mathematical methods to process 
+                    and analyze data, but they are typically used for different purposes. Statistics is used
+                    to make inferences and draw conclusions about a population based on a sample of data, 
+                    whereas computation is used to perform specific calculations or solve problems.
+                </p>
+
+                <!-- Creating a sub header -->
+                <h3 id="getting-started">Getting Started</h3>
+
+                <!-- Creating a paragraph content -->
+                <p>
+                    In Jupyter Lab, we are going create a new file and input the following libraries to a cell:
+                    <br>
+                </p>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            import matplotlib.pyplot as plt<br>
+                            import numpy as np<br>
+                            import pandas as pd<br>
+                            import seaborn as sns
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    Where we are able to import the following libraries and can use the following code to import
+                    a CSV file which has data in it (the dataset itself is about alcohol in the blood). To read 
+                    the file we then do:
+                </p>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            df_bac = pd.read_csv("../datasets_as/bac.csv")
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    However, we can not see what pandas has done to the code. So, we are going to check the top 
+                    couple of lines of code and see columns/rows of the file. We do that by printing the previous 
+                    line and gives an output:
+                </p>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            print(df_bac.head())<br>
+                            OUTPUT:<br>
+                            &nbsp;&ensp; Subject &emsp;            BAC  &emsp; PASS  &emsp; forpass &emsp;&ensp;&ensp;      pred &emsp; &nbsp;       pass.ols &emsp;                         PASS.OLS<br>
+                            0  &emsp;         54 &emsp;       0.000344  &emsp;    1  &emsp; 0.518128 &emsp;                 0.971148 &emsp;&ensp;           0 &emsp;&emsp;&emsp;&emsp;&emsp;        0<br>
+                            1  &emsp;         94 &emsp;       0.000523  &emsp;    1  &emsp; 0.464620 &emsp;                 0.970857 &emsp;&ensp;           0 &emsp;&emsp;&emsp;&emsp;&emsp;        0<br>
+                            2  &emsp;         72 &emsp;       0.001530  &emsp;    1  &emsp; 0.797098 &emsp;                 0.969166 &emsp;&ensp;           0 &emsp;&emsp;&emsp;&emsp;&emsp;        1<br>
+                            3  &emsp;&ensp;    1 &emsp;       0.001819  &emsp;    1  &emsp; 0.327069 &emsp;                 0.968663 &emsp;&ensp;           0 &emsp;&emsp;&emsp;&emsp;&emsp;        0<br>
+                            4  &emsp;         49 &emsp;       0.001850  &emsp;    1  &emsp; 0.546285 &emsp;                 0.968608 &emsp;&ensp;           0 &emsp;&emsp;&emsp;&emsp;&emsp;        0
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    By looking at the output, we can see some of the data is not being discriptive so we are going 
+                    to trim the data see and keep what is useful. What seems useful from the dataset is Subject,
+                    PASS, and BAC. We are going to trim the datase and check the information of the trim dataset:
+                </p>
+                
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            df_bac_trim = df_bac[['Subject', 'BAC', 'PASS']].copy()<br>
+                            df_bac_trim.info()<br>
+                            OUTPUT:<br>
+                            class 'pandas.core.frame.DataFrame'<br>
+                                RangeIndex: 100 entries, 0 to 99<br>
+                                Data columns (total 3 columns):<br><br>
+                                &nbsp; #  &emsp; Column  &ensp;             Non-Null Count &nbsp;        Dtype<br>  
+                                      --- &emsp; ------  &emsp;             -------------- &emsp;        -----<br>  
+                                &nbsp; 0  &emsp; Subject &emsp;              100 non-null  &emsp;&nbsp;  int64<br>  
+                                &nbsp; 1  &emsp; BAC     &ensp;&emsp;&emsp;  100 non-null  &emsp;&nbsp;  float64<br>
+                                &nbsp; 2  &emsp; PASS    &emsp;&emsp;        100 non-null  &emsp;&nbsp;  int64<br><br>  
+                                dtypes: float64(1), int64(2)<br>
+                                memory usage: 2.5 KB<br>
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    We can see the type of dataset within the file, how many columns, and rows there are in the file itself. 
+                    Which can be useful, now lets check the header of the file, we should see a "trim" header compare to the 
+                    first header we saw. Let's rename one of the colums from PASS to FST PASS to make the dataset a lot
+                    easier to read.
+                </p>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            df_bac_trim.rename(columns={"PASS": "FST Pass"}, inplace=True)<br>
+                            df_bac_trim.head()<br>
+                            OUTPUT:<br>
+                            &nbsp;&ensp; Subject &emsp;            BAC  &emsp; FST PASS<br>
+                            0  &emsp;         54 &emsp;       0.000344  &emsp;      1<br>
+                            1  &emsp;         94 &emsp;       0.000523  &emsp;      1<br>
+                            2  &emsp;         72 &emsp;       0.001530  &emsp;      1<br>
+                            3  &emsp;&ensp;    1 &emsp;       0.001819  &emsp;      1<br>
+                            4  &emsp;         49 &emsp;       0.001850  &emsp;      1
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    Now lets forcus at looking at the histogram since we got rid of all the useless information/data. It does
+                    not appears that BAC is very distinguished between samples. However, there is a massive difference where
+                    BAC is used to determine whether someone is truly legal. There is a higher proportion of subjects passing
+                    the sobriety test. Let's conpute the proportions so we can see more quantitatively the difference between
+                    failing a sobriety test and truly driving under the influence, and whether the original suspicions were 
+                    correct:
+                </p>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            df_bac_trim[df_bac_trim['BAC'] >+ 0.08].count()<br>
+                            OUTPUT:<br>
+                            Subject      &emsp;&emsp;&nbsp;               18<br>
+                            BAC          &emsp;&emsp;&emsp;&ensp;&nbsp;   18<br>
+                            FST Pass     &emsp;&nbsp;&nbsp;               18<br>
+                            dtype: int64
+
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    It seems that indeed, the proportion of drivers pulled over by the police officers were primarily not drunk. By 
+                    creating the (some_number > 0.08) condition, they are not drunk.
+                    <br>
+                    Now, let's compute the Z-score for the mean of the variable of officers' intuition correctly pulling over drunk 
+                    drivers, to see if there is a difference between random chance and the police officers' intuition.
+                    <br>
+                    Let's checkout how to use statsmodels stats package: 
+                    <a href="https://www.statsmodels.org/stable/stats.html">statsmodel</a>.
+                </p>
+
+                <!-- Creating a tag for a code plate to input code -->
+                <ul>
+                    <!-- Inputting the bullet point -->
+                    <li class="bash-shell-language">
+                        <!-- Inputting the code -->
+                        <p class="bash-code">
+                            df_bac_trim[df_bac_trim['FST Pass'] == 0].count()<br>
+                            OUTPUT:<br>
+                            Subject      &emsp;&emsp;&nbsp;               39<br>
+                            BAC          &emsp;&emsp;&emsp;&ensp;&nbsp;   39<br>
+                            FST Pass     &emsp;&nbsp;&nbsp;               39<br>
+                            dtype: int64
+
+                        </p>
+                    </li>
+                </ul>
+
+                <!-- Continuing the paragraph content -->
+                <p>
                     
                 </p>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    
+                </p>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    
+                </p>
+
+                <!-- Continuing the paragraph content -->
+                <p>
+                    
+                </p>
+
             </div>
 
 
@@ -166,7 +395,7 @@
 
 
 
-            </div>
+        </article>
            
         
     </body>

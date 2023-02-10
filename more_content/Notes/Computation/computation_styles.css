@@ -14,6 +14,8 @@
     height: 100%;
 }
 */
+
+
 body{
     margin: 0;
     overflow-x: hidden;
@@ -53,6 +55,7 @@ body{
     height: 100vh;
     flex-wrap: wrap;
     opacity: 80%;
+    
 }
 
 /*All of header 2*/
@@ -63,14 +66,15 @@ h2{
 }
 
 /*Sub title ID headers 2*/
-#sub-title-topics{
+#introduction-sub-title-topics,
+#chapter-one-sub-title-topic{
     margin: 0;
     font-size: 1.7rem;
 }
 
 /*Eliminate all bullet point dots*/
 li{
-    list-style: none;
+    list-style: lower-roman;
 }
 
 /*All of the paragraphs*/
@@ -79,18 +83,31 @@ p{
     line-height: 1.3em;
     font-size: 17px;
 }
+.bash-code{
+    text-align: left;
+    font-size: 0.9rem;
+    margin: 0;
+}
 
 /*pre tags style format*/
 pre{
-    white-space: pre;
-    word-spacing: normal;
-    word-break: normal;
-    word-wrap: normal;
+    white-space: pre-line;
     text-align: left;
     line-height: 0.3;
     max-width: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
 }
+
+.bash-shell-language{
+    list-style: none;
+    opacity: 0.85;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
 
 /*Changing the size of the work list*/
 .card-notes{
@@ -105,6 +122,11 @@ pre{
 a{
     font-size: 17px;
     color: #3366CC;
+}
+
+ol{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 /*Calling the subtitles to create empty spaces*/
