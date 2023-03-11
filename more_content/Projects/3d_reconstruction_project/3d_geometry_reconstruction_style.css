@@ -6,3 +6,21 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
 }
+/*For the page wrapper*/
+.page-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+/*For the particles or javascript file*/
+#myCanvas {
+    background-color: white;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
