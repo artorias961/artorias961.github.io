@@ -1157,7 +1157,37 @@ Use an inline <math> element: HTML5 includes an inline <math> element that can b
 
 
 
+# Server Side Language
 
+A server-side language is a programming language used to create dynamic web pages, web applications, and web services that are executed on a web server. These programming languages are designed to handle tasks that occur on the server-side of a web application, such as database access, user authentication, and server-side scripting.
+
+- Pros of using server-side languages include:
+
+  - Dynamic Content: Server-side languages can create dynamic content that changes based on user input or other conditions.
+
+  - Security: Server-side languages can protect sensitive data by handling it on the server-side rather than the client-side.
+
+  - Scalability: Server-side languages can handle a large number of requests and scale easily.
+
+- Cons of using server-side languages include:
+
+  - Performance: Server-side languages can be slower than client-side languages due to the need to execute code on the server.
+
+  - Learning Curve: Server-side languages often have a steeper learning curve than client-side languages due to their complexity.
+
+  - Cost: Using a server-side language may require additional server resources, which can increase the cost of hosting.
+
+- Examples of server-side languages include:
+
+  - PHP: A popular server-side language used for creating dynamic web pages and web applications.
+
+  - Python: A general-purpose programming language used for a wide range of applications, including web development.
+
+  - Ruby: A dynamic, object-oriented programming language often used for web development.
+
+  - Java: A popular server-side language used for creating web applications and enterprise software.
+
+  - Node.js: A server-side platform built on Chrome's JavaScript runtime used for creating scalable and high-performance web applications.
 
 
 
