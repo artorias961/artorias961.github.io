@@ -6,11 +6,6 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
 }
-/*For the page wrapper*/
-.page-wrapper{
-    display: flex;
-    justify-content: center;
-}
 
 /*For the particles or javascript file*/
 #myCanvas {
@@ -23,4 +18,24 @@
     height: 100%;
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*For the page wrapper*/
+.page-wrapper{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/*For the Main Title*/
+.main-title{
+    width: 100%;
+}
+
+/*For the introduction paragraph*/
+.intro-container{
+    width: 60%;
+
 }
