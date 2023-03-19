@@ -1,7 +1,5 @@
 /*Select all elements, and set their background color to ...*/
 *{
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .5px;
@@ -22,20 +20,30 @@
 
 /*For the page wrapper*/
 .page-wrapper{
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-}
-
-/*For the Main Title*/
-.main-title{
+    align-items: center;
     width: 100%;
 }
 
-/*For the introduction paragraph*/
-.intro-container{
-    width: 60%;
-
+/*The main title for the project*/
+.title-project-container{
+    font-size: xx-large;
+    font-weight: 1200;
 }
+
+/*For the introduction paragraph*/
+.welcome-container, 
+.disclaimer-container,
+.abstract-container,
+.intro-container{
+    width: 65%;
+}
+
+
+
+
+
+
+

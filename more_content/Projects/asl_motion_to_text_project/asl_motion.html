@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
         <!-- Importing the default for all websites character set -->
         <meta charset="UTF-8">
@@ -12,6 +12,12 @@
         <!-- Link to an external style sheet-->
         <link rel="stylesheet" href="asl_motion_style.css">
 
+        <!-- Identifying the JavaScript.js file to an ID (for CSS) -->
+        <canvas id="myCanvas"></canvas>
+
+        <!-- Adding javascript file to the code  -->
+        <script type="text/javascript" src="script_particles.js"></script>
+
         <!-- Basically tells the provider up to what version it supports for a browser-->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -20,6 +26,71 @@
     </head>
 
     <body>
-        <h1>ASL Motion to Text Project</h1>
+        <!-- Creating a page wrapper -->
+        <div class="page-wrapper">
+            <!-- Creating a class for the title -->
+            <div class="main-title">
+                 <!-- Creating the title for the page wrapper -->
+                <h1 class="title-project-container">ASL Motion to Text</h1>
+            </div>
+
+            <!-- A summary for the entire project -->
+            <div class="welcome-container">
+                <!-- Creating a sub header for the information -->
+                <p>
+                    Hello everyone, I am from team 10 for Senior Design from Cal State LA, my name is Christopher Morales,
+                    the project is 3D Geometry Reconstruction of Medical Images. Where we're proposing to our clients who are
+                    gynecology organs specifically in the bladder, vagina and rectum. Where we will use MRI scans to determine
+                    if any patients have a prolapse; which consist of the pelvic floor muscles and ligaments detected being weak
+                    and stretched. To identify medical images, we are going to use a method called Computer Vision.  Where
+                    computer vision is a technique to identify and understand an image. With the use of computer vision, we
+                    are able to detect the bladder, rectum, and vagina using MRI Images. Where we will draw an ellipse inside
+                    the wanted object in the image to gather information that will be sent to a CAD program. By using the data
+                    obtained from the MRI scans through computer vision, we are creating a three-dimensional CAD model of the
+                    pelvic floor.  In our case, we are utilizing Free CAD because it is an open source parametric 3D modeler
+                    which we can feed the information necessary to generate a unique model.
+                </p>
+            </div>
+
+            <!-- A disclaimer for the entire project -->
+            <div class="disclaimer-container">
+                <!-- Creating a sub header for the information -->
+                <p>
+                    It is important to note that while I have access to MRI images, I cannot share them due to confidentiality 
+                    agreements with both the CSULA project and the patients. Therefore, as an alternative, I will be utilizing 
+                    a black and white filtered image of my cat.
+                </p>
+            </div>
+
+            <!-- The picture sample section -->
+            <div class="pic-sample-container">
+                <!-- Creating a sample of the picture -->
+                <p>
+                    Input picture here!!! - Arty Chan
+                </p>
+            </div>
+
+            <!-- The abstract for the project -->
+            <div class="abstract-container">
+                <!-- Creating a paragraph section -->
+                <p>
+                    The research relevance is based on the notion of 3D Medical Images to grasp an internal representation of 
+                    manipulating images and give a better observation tool for medical doctors. Implementing Computer Vision 
+                    to MRI images allows the freedom to interpret MRI images with a 3D render applied, in this case, to the 
+                    pelvic cavity. Every pelvic organ will be reconstructed with lofted ellipses identified on MRI images that 
+                    constitutes the 3D volume. Applying a morphological transformation to the MRI images will result in finding 
+                    the wanted organ to determine the ellipse that contours it to be used for a 3D model.
+                </p>
+            </div>
+
+            
+            <!-- The introduction section of the project -->
+            <div class="intro-container">
+
+            </div>
+            
+
+        </div>
+
     </body>
 </html>
