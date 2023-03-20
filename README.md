@@ -1191,6 +1191,33 @@ A server-side language is a programming language used to create dynamic web page
 
 
 
+
+
+# Switching from Client-Side (JavaScript) to Server Side language (PHP)
+
+
+Yes, it is possible to modify your code to use PHP as the server-side language. However, it would require significant changes to the codebase, as PHP is a server-side language that is executed on the server, while JavaScript is a client-side language that is executed in the user's browser.
+
+To modify your code to use PHP, you would need to rewrite the client-side JavaScript code that interacts with the server to use PHP. This would involve creating a server-side script in PHP that handles incoming requests from the client, processes user input, and returns a response to the client.
+
+You would also need to update any server-side validation and security features, such as rate limiting, IP restrictions, and SQL injection prevention, to work with PHP instead of JavaScript.
+
+Additionally, you would need to set up a web server that can run PHP code and host your modified codebase on the server.
+
+Overall, modifying your code to use PHP would require a significant amount of work and expertise in both JavaScript and PHP. If you are unfamiliar with PHP or server-side programming, it may be best to consider using a different language or seeking assistance from a developer with experience in PHP and web application development.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Reference's
 - HTML
   - [All info for HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
