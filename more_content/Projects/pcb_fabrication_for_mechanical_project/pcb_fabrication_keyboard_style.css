@@ -37,11 +37,22 @@
 .welcome-container, 
 .disclaimer-container,
 .abstract-container,
-.intro-container{
-    width: 65%;
+.intro-container,
+.body-container{
+    width: 80%;
 }
 
+/*For all the images*/
+.pic-sample-container{
+    width: auto;
+    height: auto;
+}
 
+/*For all big images*/
+.pic-sample-two-container{
+    width: auto;
+    height: auto;
+}
 
 
 

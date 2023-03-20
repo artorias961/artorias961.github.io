@@ -38,17 +38,11 @@
             <div class="welcome-container">
                 <!-- Creating a sub header for the information -->
                 <p>
-                    Hello everyone, I am from team 10 for Senior Design from Cal State LA, my name is Christopher Morales,
-                    the project is 3D Geometry Reconstruction of Medical Images. Where we're proposing to our clients who are
-                    gynecology organs specifically in the bladder, vagina and rectum. Where we will use MRI scans to determine
-                    if any patients have a prolapse; which consist of the pelvic floor muscles and ligaments detected being weak
-                    and stretched. To identify medical images, we are going to use a method called Computer Vision.  Where
-                    computer vision is a technique to identify and understand an image. With the use of computer vision, we
-                    are able to detect the bladder, rectum, and vagina using MRI Images. Where we will draw an ellipse inside
-                    the wanted object in the image to gather information that will be sent to a CAD program. By using the data
-                    obtained from the MRI scans through computer vision, we are creating a three-dimensional CAD model of the
-                    pelvic floor.  In our case, we are utilizing Free CAD because it is an open source parametric 3D modeler
-                    which we can feed the information necessary to generate a unique model.
+                    This marks the beginning of my computer vision explorations. In an effort to document my journey for future 
+                    reference or to aid others in their pursuits, I will be storing the majority of my notes here. Initially, 
+                    I will focus on fundamental computer vision concepts such as loading a standard image, converting it to 
+                    grayscale, applying a Gaussian blur, obtaining the threshold image, and ultimately identifying the image's 
+                    contours. 
                 </p>
             </div>
 
@@ -56,9 +50,8 @@
             <div class="disclaimer-container">
                 <!-- Creating a sub header for the information -->
                 <p>
-                    It is important to note that while I have access to MRI images, I cannot share them due to confidentiality 
-                    agreements with both the CSULA project and the patients. Therefore, as an alternative, I will be utilizing 
-                    a black and white filtered image of my cat.
+                    I will use a few images as an example and display the image in a 2 by 2 format. Where we are going to use 
+                    openCV for most if not all methods for the images.
                 </p>
             </div>
 
@@ -74,12 +67,12 @@
             <div class="abstract-container">
                 <!-- Creating a paragraph section -->
                 <p>
-                    The research relevance is based on the notion of 3D Medical Images to grasp an internal representation of 
-                    manipulating images and give a better observation tool for medical doctors. Implementing Computer Vision 
-                    to MRI images allows the freedom to interpret MRI images with a 3D render applied, in this case, to the 
-                    pelvic cavity. Every pelvic organ will be reconstructed with lofted ellipses identified on MRI images that 
-                    constitutes the 3D volume. Applying a morphological transformation to the MRI images will result in finding 
-                    the wanted organ to determine the ellipse that contours it to be used for a 3D model.
+                    An image is composed of either 3 or 4 matrices that are formatted in RGB or RGBA. As I intend to use openCV, 
+                    the library will default to using only 3 matrices, which represent Red, Green, and Blue. It is essential 
+                    that the three matrices are identical in size to accurately portray the image. Within the image's dimensions, 
+                    each element or cell is assigned an integer value between 0 and 255, which ultimately corresponds to a 
+                    particular color. By combining and multiplying the three matrices, the image generates a color composition. 
+                    Upon zooming out, a pet image will display a varied quantity of integers.
                 </p>
             </div>
 
