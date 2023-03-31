@@ -109,6 +109,16 @@ One example of installing a libray is installing **Flask**, since we are going t
 <img src="https://user-images.githubusercontent.com/54751574/196769089-8cbc35a4-9819-4c8c-9fe6-fe436cfd4442.png">
 </p>
  
+***THIS IS NOT OPTIONAL (FOR WINDOWS OS)***
+
+We are going to allow the mambaforge/miniforge prompt application to be available in the powershell. *Normally, for Window the powershell is overprotective and we need to allow some settings to be available in the background. Powershell will think mambaforge/miniforge is an untrusted program that could harm the computer.*
+
+```shell
+conda init powershell
+```
+
+Once you do this, you will see a bunch of files being displayed and some should say **modified**. Just closed the application and reopen, this should allow mambaforge/miniforge to be seen globally:)
+
  ***THIS IS OPTIONAL AND NOT MANDATORY:*** 
  We are going to create a environment in Miniforge3 for this website project. For the reason being to keep the project low as possible from having issues in the future with libraries stabilities and have optimal speed. *Again, this is optional, open Miniforge3 prompt (assuming you installed the mambaforge version)*:
  
