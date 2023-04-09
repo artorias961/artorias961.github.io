@@ -1,4 +1,6 @@
 # Overall Update
+- (4/7/2023)
+  - Talked to professor Airs Lin at CSULA reagarding about my website. Server side is when the dedicated linux machine that needs to generate the code while client side is HTML, CSS, JS, etc. The client side or the user device has to render the website not the server side. The server side is meant to be only what the server has to do and nothing more. 
 - (1/15/2023)
 - I just found something cool regarding for API's and the [GitHub link](https://github.com/disease-sh/api) looks promising
 - (1/9/2023)
@@ -168,8 +170,24 @@ C:/Users/<your username here>/mambaforge/condabin/conda.bat init
 *YOU NEED TO KNOW YOUR CONDA PATH BUT THIS SHOULD BE THE GENERAL PATH UNLESS YOU CHANGED IT, just change "<your username here>" to you computer name*. You should be done:) and ready to use python in a conda environment.
 
 
-  
-  
+# Installing a PHP interpreter (optional)  
+There are several PHP interpreters available that you can use depending on your operating system and requirements. Here are some of the most popular PHP interpreters:
+
+- [PHP](https://www.php.net/downloads.php): This is the official PHP interpreter and is available for free on the official PHP website. It is compatible with various web servers like Apache, Nginx, and Microsoft IIS.
+
+- [XAMPP](https://www.apachefriends.org/download.html): XAMPP is a popular PHP development environment that includes PHP, Apache, MySQL, and other tools required for PHP development. It is available for Windows, Linux, and macOS.
+
+- [WampServer](https://www.wampserver.com/en/#download-wrapper): WampServer is a popular PHP development environment for Windows that includes PHP, Apache, and MySQL.
+
+- [MAMP](https://www.mamp.info/en/downloads/): MAMP is a PHP development environment for macOS that includes PHP, Apache, and MySQL.
+
+- LAMP: LAMP is a popular PHP development stack that includes Linux, Apache, MySQL, and PHP. *NOTE, that for the LAMP interpreter you need to install every environment individually. Here they are [Apache](https://httpd.apache.org/download.cgi), [MySQL](https://dev.mysql.com/downloads/mysql/), [PHP](https://www.php.net/downloads.php), and [A linux of your choice](https://www.ubuntu.com/download)*
+
+Out of all of them, Professor Airs Lin recommended me to use XAMPP interpreter since it includes many environments that any would need. *(The current version I will be using is PHP XAMPP 8.2.4)*
+
+
+
+
   
 # Switching IDE's to PyCharm Professional
 Recently, one week or two before 2023, I switched to PyCharm due to local interpreter python server took a while to load up updated CSS or JavaScript. I was getting annoyed and that what made me try out PyCharm Professional (for HTML, CSS, and JavaScript). To be honest, this is the best IDE that is highly advanced that will updated your code live when saving the file. PyCharm Professional will connect to your browser and create a local host and not needing python server anymore.  
