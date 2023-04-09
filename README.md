@@ -58,6 +58,10 @@ Another thing people recommend learning is Devops. From what people say, Devops 
 
 So far in the frontend of the website languages are HTML, CSS, and JavaScript while the backend is NodeJS
 
+
+# Client Side vs Server Side
+Client Side will be known as the user side, when the user clicks on a link on their browser. They are able to render the information and see the beauty of the website. While Server Side, is what the server computer sends information to the Client Side but in file format. The rendering process is done by the client side not the server side. Server Side deals with data or when the Client Side will request for a new link. 
+
 # Programs
 The IDE I will be using is [Visual Studio Code](https://code.visualstudio.com) and the conda environment [mambaforge](https://github.com/conda-forge/miniforge). You are not limited to these, you are welcome to find what works best for you. 
 
