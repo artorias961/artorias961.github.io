@@ -58,6 +58,10 @@ Another thing people recommend learning is Devops. From what people say, Devops 
 
 So far in the frontend of the website languages are HTML, CSS, and JavaScript while the backend is NodeJS
 
+
+# Client Side vs Server Side
+Client Side will be known as the user side, when the user clicks on a link on their browser. They are able to render the information and see the beauty of the website. While Server Side, is what the server computer sends information to the Client Side but in file format. The rendering process is done by the client side not the server side. Server Side deals with data or when the Client Side will request for a new link. 
+
 # Programs
 The IDE I will be using is [Visual Studio Code](https://code.visualstudio.com) and the conda environment [mambaforge](https://github.com/conda-forge/miniforge). You are not limited to these, you are welcome to find what works best for you. 
 
@@ -187,6 +191,61 @@ Out of all of them, Professor Airs Lin recommended me to use XAMPP interpreter s
 
 
 
+  
+  
+  
+ When installing the interpreter on Windows you get the following prompt: 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/230751408-d7149883-5cbc-416c-8544-f9d616641b28.png">
+</p>
+  
+  
+You will get then get the following:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/230751449-c299bef7-859d-4fff-89e4-c6db4d8993c4.png">
+</p>
+  
+The packages that comes with XAMPP:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/230751485-dc651168-c0f3-4f00-906c-71a604361ad3.png">
+</p>  
+  
+Where the base directory will be:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/230751515-b4ee6358-56dd-412d-a2ea-972b676ad08c.png">
+</p>   
+  
+Once you finish setting up and while installing, you should see:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/230751530-f823df94-d283-4a10-9428-2d7bfd2fd5de.png">
+</p>    
+
+Finally, here is the **XAMPP Control Panel**
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54751574/230752896-3146b347-c108-47fd-a77e-f0df00bd7448.png">
+</p>  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
   
 # Switching IDE's to PyCharm Professional
