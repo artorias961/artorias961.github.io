@@ -23,7 +23,7 @@
 /*Going to be modifying the page wrapper and specifically the picture*/
 .page-wrapper{
     display: flex;
-    max-width: 1500px;
+   /* max-width: 1500px;*/
     justify-content: center;
     justify-content: space-evenly;
     height: 100vh;

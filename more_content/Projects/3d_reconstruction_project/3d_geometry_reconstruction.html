@@ -31,11 +31,11 @@
             <!-- Creating a class for the title -->
             <div class="main-title">
                  <!-- Creating the title for the page wrapper -->
-                <h1 class="title-project-container">3D Geometry Reconstruction of Medical Images</h1>
+                <h1 class="title-project-container">3D Geometry reconstruction of Medical Images</h1>
             </div>
 
             <!-- A summary for the entire project -->
-            <div class="welcome-container">
+            <div class="info-container">
                 <!-- Creating a sub header for the information -->
                 <p>
                     Hello everyone, I am from team 10 for Senior Design from Cal State LA, my name is Christopher Morales,
@@ -53,7 +53,7 @@
             </div>
 
             <!-- A disclaimer for the entire project -->
-            <div class="disclaimer-container">
+            <div class="info-container">
                 <!-- Creating a sub header for the information -->
                 <p>
                     It is important to note that while I have access to MRI images, I cannot share them due to confidentiality 
@@ -66,29 +66,99 @@
             <div class="pic-sample-container">
                 <!-- Creating a sample of the picture -->
                 <p>
-                    Input picture here!!! - Arty Chan
+                    Input picture here!!! computer vision example - Arty Chan
                 </p>
             </div>
 
             <!-- The abstract for the project -->
-            <div class="abstract-container">
+            <div class="info-container">
                 <!-- Creating a paragraph section -->
                 <p>
                     The research relevance is based on the notion of 3D Medical Images to grasp an internal representation of 
                     manipulating images and give a better observation tool for medical doctors. Implementing Computer Vision 
-                    to MRI images allows the freedom to interpret MRI images with a 3D render, in this case, to the 
+                    to MRI images allows the freedom to interpret MRI images with a 3D render applied, in this case, to the 
                     pelvic cavity. Every pelvic organ will be reconstructed with lofted ellipses identified on MRI images that 
                     constitutes the 3D volume. Applying a morphological transformation to the MRI images will result in finding 
-                    the wanted organ to determine the ellipse that contours it to be used for the 3D model.
+                    the wanted organ to determine the ellipse that contours it to be used for a 3D model.
                 </p>
             </div>
 
             
-            <!-- The introduction section of the project -->
+            <!-- The introduction section of the project (Part 1) -->
             <div class="intro-container">
-
+                <!-- Creating a paragraph section -->
+                <p>
+                    The 3D Geometry Reconstruction of Medical Images focuses on creating a 3D geometric model that can be then used 
+                    to achieve numerical simulation aiming at planning surgery. The project will be based on open-source platforms 
+                    that can use python. Where python allows the project to gather data from a Python IDE and send the data to an 
+                    open-source CAD to render a model. Each MRI dataset of images will vary on each model output meaning, not every 
+                    model will be the same.  
+                </p>
+                
+                <br>
+                
+                <p>
+                    To get a better understanding of Computer Vision, it is better to understand how an image works despite its looks. 
+                    Every MRI image consists of three matrices in RGB format that makes a gray image. Where, every element or cell of a 
+                    matrix will have a value range of 0 to 255, which will be presented as the color of the pixel. 
+                </p>
             </div>
             
+            <!-- The picture sample section -->
+            <div class="pic-sample-container">
+                <!-- Creating a sample of the picture -->
+                <p>
+                    Input picture here!!! MRI open source image - Arty Chan
+                </p>
+            </div>
+
+            <!-- The introduction section of the project (Part II) -->
+            <div class="intro-container">
+                <!-- Creating a paragraph section -->
+                <p>
+                    Furthermore, each MRI image will consist of three matrices that are represented as three channels or known as. Where 
+                    multiplying the three channels or RBG [1], will result in an image. In computer vision, this is important due to reducing 
+                    the number of channels and the color range will help the process of elimination of unwanted data.  
+                </p>
+                
+                <br>
+                
+                <p>
+                    To create a 3D Pelvic Floor System, the MRI images will go through multiple transformations, elimination, and modifications 
+                    in order to determine the wanted organ. For team 10, the main goal is to determine a vast number of pixels that can be 
+                    represented as a blob or will be called a cavity. Where each cavity will have its own correlated ellipse, either the ellipse 
+                    taking unwanted area or losing area in the blob. Each ellipse will have its own mathematical expression that can be extracted 
+                    from and sent to FreeCAD software to render and simulate the model.  
+                </p>
+            </div>
+
+            <!-- The picture sample section -->
+            <div class="pic-sample-container">
+                <!-- Creating a sample of the picture -->
+                <p>
+                    Input picture here!!! Block diagram - Arty Chan
+                </p>
+            </div>
+
+             <!-- The introduction section of the project (Part II) -->
+             <div class="intro-container">
+                <!-- Creating a paragraph section -->
+                <p>
+                    The requirements for this project do not require any budget. Instead, the approach taken was to use multiple open-source 
+                    software that are compatible with python. Libraries that are currently running on our software contain pytorch for the deep 
+                    learning aspect, OpenCV, and Tensorflow. The requirement needed is for the software tool called Miniforge3 which is a conda 
+                    environment and is able to install python libraries. With Miniforg3, all platforms on any Operating System (OS) will be able 
+                    to use the python interpreter with the same library version. 
+                </p>
+                
+                <br>
+                
+                <p>
+                    One of the necessary implementations for detecting an object from an image is called grayscale. Grayscale is a transformation 
+                    from RGB, three matrices, that will be converted to one matrix. For the project, reducing as many channels as possible will 
+                    help detect the wanted image, as the following figure shows. 
+                </p>
+            </div>
 
         </div>
 
