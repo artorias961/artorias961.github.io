@@ -1,4 +1,6 @@
 # Overall Update
+- (10/22/2023)
+  - Making minor updates to the website but going to focus on making website 2.0 using either Notion or Vercel on GitHub!!! 
 - (4/7/2023)
   - Talked to professor Airs Lin at CSULA reagarding about my website. Server side is when the dedicated linux machine that needs to generate the code while client side is HTML, CSS, JS, etc. The client side or the user device has to render the website not the server side. The server side is meant to be only what the server has to do and nothing more. 
 - (1/15/2023)
